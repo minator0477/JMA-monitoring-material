@@ -9,7 +9,7 @@
 - `config/targets.yaml` — 監視対象ページのリスト。今後ここに追記していく想定。
 - `scripts/monitor.py` — 監視・ダウンロード・通知を行う本体スクリプト。
 - `state/downloaded.json` — 既にダウンロード済みのPDF URL一覧(重複ダウンロード防止用)。
-- `downloads/<target id>/` — ダウンロードしたPDFの保存先。
+- `downloads/<target id>/` — ダウンロードしたPDFと、その内容をテキスト化したMarkdown(同名の`.md`)の保存先。
 - `.github/workflows/monitor.yml` — 毎日実行するGitHub Actionsワークフロー(手動実行も可能)。
 
 ## 監視対象の追加方法
@@ -40,6 +40,6 @@ python scripts/monitor.py
 
 1. `config/targets.yaml` に記載された各ページを取得
 2. ページ内のPDFリンクを抽出
-3. `state/downloaded.json` に記録のないURL(=新着)のみダウンロードし、`downloads/<id>/` に保存
+3. `state/downloaded.json` に記録のないURL(=新着)のみダウンロードし、`downloads/<id>/` に保存(併せてMarkdownにも変換して保存)
 4. 新着があれば `state/downloaded.json` を更新し、Discordに通知
 5. GitHub Actions側で変更があればコミット・push

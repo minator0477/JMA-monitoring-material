@@ -14,6 +14,7 @@ from urllib.parse import urljoin, urlparse
 import requests
 import yaml
 from bs4 import BeautifulSoup
+from markitdown import MarkItDown
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "config" / "targets.yaml"
@@ -27,6 +28,8 @@ USER_AGENT = (
 REQUEST_TIMEOUT = 30
 DISCORD_MESSAGE_LIMIT = 1900
 
+_markitdown = MarkItDown()
+
 
 @dataclass
 class PdfEntry:
@@ -35,6 +38,7 @@ class PdfEntry:
     title: str
     url: str
     path: str
+    markdown_path: str | None
     downloaded_at: str
 
 
@@ -80,6 +84,19 @@ def download_pdf(session: requests.Session, url: str, dest: Path) -> None:
     resp = session.get(url, timeout=REQUEST_TIMEOUT)
     resp.raise_for_status()
     dest.write_bytes(resp.content)
+
+
+def convert_to_markdown(pdf_path: Path, md_path: Path, title: str, source_url: str) -> bool:
+    try:
+        result = _markitdown.convert(str(pdf_path))
+    except Exception as e:  # noqa: BLE001 - markitdown may raise various parser errors
+        print(f"Markdown変換失敗 {pdf_path}: {e}", file=sys.stderr)
+        return False
+
+    header = f"# {title}\n\n- 出典PDF: {source_url}\n\n---\n\n"
+    md_path.parent.mkdir(parents=True, exist_ok=True)
+    md_path.write_text(header + result.text_content, encoding="utf-8")
+    return True
 
 
 def notify_discord(new_entries: list[PdfEntry]) -> None:
@@ -148,12 +165,16 @@ def main() -> int:
                 print(f"[{target_id}] ダウンロード失敗 {pdf_url}: {e}", file=sys.stderr)
                 continue
 
+            md_dest = dest.with_suffix(".md")
+            converted = convert_to_markdown(dest, md_dest, link["title"], pdf_url)
+
             entry = PdfEntry(
                 target_id=target_id,
                 target_name=target_name,
                 title=link["title"],
                 url=pdf_url,
                 path=str(dest.relative_to(ROOT)),
+                markdown_path=str(md_dest.relative_to(ROOT)) if converted else None,
                 downloaded_at=datetime.now(timezone.utc).isoformat(),
             )
             state[pdf_url] = asdict(entry)
