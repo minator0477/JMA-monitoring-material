@@ -1,0 +1,8 @@
+# 監視対象の気象庁ページ一覧。
+# id: ダウンロード先フォルダ名にも使われる一意なID(英数字推奨)
+# name: 通知メッセージなどで使う表示名
+# url: 監視対象ページのURL
+targets:
+  - id: extreme_japan
+    name: 日本の異常気象
+    url: https://www.data.jma.go.jp/cpd/longfcst/extreme_japan/index.html
