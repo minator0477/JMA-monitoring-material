@@ -1,0 +1,47 @@
+{
+  "https://www.jma.go.jp/jma/press/2308/28a/kentoukai20230828.pdf": {
+    "downloaded_at": "2026-07-28T22:52:44.000521+00:00",
+    "markdown_path": "downloads/extreme_japan/kentoukai20230828.md",
+    "path": "downloads/extreme_japan/kentoukai20230828.pdf",
+    "target_id": "extreme_japan",
+    "target_name": "日本の異常気象",
+    "title": "令和５年梅雨期の大雨事例と７月後半以降の顕著な高温の特徴及びその要因について",
+    "url": "https://www.jma.go.jp/jma/press/2308/28a/kentoukai20230828.pdf"
+  },
+  "https://www.jma.go.jp/jma/press/2409/02a/kentoukai20240902.pdf": {
+    "downloaded_at": "2026-07-28T22:52:41.410127+00:00",
+    "markdown_path": "downloads/extreme_japan/kentoukai20240902.md",
+    "path": "downloads/extreme_japan/kentoukai20240902.pdf",
+    "target_id": "extreme_japan",
+    "target_name": "日本の異常気象",
+    "title": "令和6年7月以降の顕著な高温と7月下旬の北日本の大雨の特徴と要因について",
+    "url": "https://www.jma.go.jp/jma/press/2409/02a/kentoukai20240902.pdf"
+  },
+  "https://www.jma.go.jp/jma/press/2503/18c/kentoukai20250318.pdf": {
+    "downloaded_at": "2026-07-28T22:52:38.831085+00:00",
+    "markdown_path": "downloads/extreme_japan/kentoukai20250318.md",
+    "path": "downloads/extreme_japan/kentoukai20250318.pdf",
+    "target_id": "extreme_japan",
+    "target_name": "日本の異常気象",
+    "title": "今冬の天候及び2024年の記録的な高温の特徴と要因について",
+    "url": "https://www.jma.go.jp/jma/press/2503/18c/kentoukai20250318.pdf"
+  },
+  "https://www.jma.go.jp/jma/press/2509/05b/kentoukai20250905.pdf": {
+    "downloaded_at": "2026-07-28T22:52:36.404788+00:00",
+    "markdown_path": "downloads/extreme_japan/kentoukai20250905.md",
+    "path": "downloads/extreme_japan/kentoukai20250905.pdf",
+    "target_id": "extreme_japan",
+    "target_name": "日本の異常気象",
+    "title": "令和７年夏の記録的な高温と７月の少雨の特徴およびその要因等について",
+    "url": "https://www.jma.go.jp/jma/press/2509/05b/kentoukai20250905.pdf"
+  },
+  "https://www.jma.go.jp/jma/press/2603/03b/kentoukai20260303.pdf": {
+    "downloaded_at": "2026-07-28T22:52:34.918234+00:00",
+    "markdown_path": "downloads/extreme_japan/kentoukai20260303.md",
+    "path": "downloads/extreme_japan/kentoukai20260303.pdf",
+    "target_id": "extreme_japan",
+    "target_name": "日本の異常気象",
+    "title": "令和８年１月下旬から２月上旬の大雪と昨夏後半以降の少雨の特徴およびその要因について",
+    "url": "https://www.jma.go.jp/jma/press/2603/03b/kentoukai20260303.pdf"
+  }
+}
