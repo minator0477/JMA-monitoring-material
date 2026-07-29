@@ -1,0 +1,18 @@
+{
+  "early_warning": {
+    "checked_at": "2026-07-29T22:53:50.401195+00:00",
+    "reportDatetime": "2026-07-30T08:00:00+09:00"
+  },
+  "season_1month": {
+    "checked_at": "2026-07-29T22:53:48.771070+00:00",
+    "reportDatetime": "2026-07-23T14:30:00+09:00"
+  },
+  "season_3month": {
+    "checked_at": "2026-07-29T22:53:49.229325+00:00",
+    "reportDatetime": "2026-07-21T14:00:00+09:00"
+  },
+  "season_6month": {
+    "checked_at": "2026-07-29T22:53:49.680011+00:00",
+    "reportDatetime": "2026-02-24T14:00:00+09:00"
+  }
+}
