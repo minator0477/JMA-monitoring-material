@@ -1,7 +1,6 @@
 {
   "https://www.jma.go.jp/jma/press/2308/28a/kentoukai20230828.pdf": {
     "downloaded_at": "2026-07-28T22:52:44.000521+00:00",
-    "markdown_path": "downloads/extreme_japan/kentoukai20230828.md",
     "path": "downloads/extreme_japan/kentoukai20230828.pdf",
     "target_id": "extreme_japan",
     "target_name": "日本の異常気象",
@@ -10,7 +9,6 @@
   },
   "https://www.jma.go.jp/jma/press/2409/02a/kentoukai20240902.pdf": {
     "downloaded_at": "2026-07-28T22:52:41.410127+00:00",
-    "markdown_path": "downloads/extreme_japan/kentoukai20240902.md",
     "path": "downloads/extreme_japan/kentoukai20240902.pdf",
     "target_id": "extreme_japan",
     "target_name": "日本の異常気象",
@@ -19,7 +17,6 @@
   },
   "https://www.jma.go.jp/jma/press/2503/18c/kentoukai20250318.pdf": {
     "downloaded_at": "2026-07-28T22:52:38.831085+00:00",
-    "markdown_path": "downloads/extreme_japan/kentoukai20250318.md",
     "path": "downloads/extreme_japan/kentoukai20250318.pdf",
     "target_id": "extreme_japan",
     "target_name": "日本の異常気象",
@@ -28,7 +25,6 @@
   },
   "https://www.jma.go.jp/jma/press/2509/05b/kentoukai20250905.pdf": {
     "downloaded_at": "2026-07-28T22:52:36.404788+00:00",
-    "markdown_path": "downloads/extreme_japan/kentoukai20250905.md",
     "path": "downloads/extreme_japan/kentoukai20250905.pdf",
     "target_id": "extreme_japan",
     "target_name": "日本の異常気象",
@@ -37,7 +33,6 @@
   },
   "https://www.jma.go.jp/jma/press/2603/03b/kentoukai20260303.pdf": {
     "downloaded_at": "2026-07-28T22:52:34.918234+00:00",
-    "markdown_path": "downloads/extreme_japan/kentoukai20260303.md",
     "path": "downloads/extreme_japan/kentoukai20260303.pdf",
     "target_id": "extreme_japan",
     "target_name": "日本の異常気象",

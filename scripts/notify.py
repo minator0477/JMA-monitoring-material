@@ -34,10 +34,9 @@ def github_blob_url(repo_relative_path: str) -> str | None:
 def build_message_lines(entries: list[dict]) -> list[str]:
     lines = []
     for e in entries:
-        link_path = e.get("markdown_path") or e["path"]
-        link = github_blob_url(link_path)
+        link = github_blob_url(e["path"])
         if link is None:
-            link = f"(リンク生成不可: {link_path})"
+            link = f"(リンク生成不可: {e['path']})"
         lines.append(f"・[{e['target_name']}] {e['title']}\n  {link}")
     return lines
 
