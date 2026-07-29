@@ -1,13 +1,15 @@
 # 監視対象の気象庁ページ一覧。
 #
-# type: pdf_list (デフォルト) | json_bulletin
-#   pdf_list      … ページ内の <a href="*.pdf"> を新着PDFとして検知・ダウンロードする
-#   json_bulletin … JSON APIの reportDatetime の変化で新しい発表を検知する(ダウンロードはしない)
+# type: pdf_list (デフォルト) | json_bulletin | json_probability
+#   pdf_list         … ページ内の <a href="*.pdf"> を新着PDFとして検知・ダウンロードする
+#   json_bulletin     … JSON(単一オブジェクト)の reportDatetime の変化で新しい発表を検知する(季節予報など)
+#   json_probability … JSON(ネストした配列)内の全 reportDatetime の最大値の変化で新しい発表を検知する(早期注意情報など)
+# どちらのjson系もダウンロードはしない。
 #
 # id: ダウンロード先フォルダ名やstateのキーにも使われる一意なID(英数字推奨)
 # name: 通知メッセージなどで使う表示名
-# url: 監視に使うURL(pdf_listはページURL、json_bulletinはJSON APIのURL)
-# web_url: (json_bulletinのみ) 通知に載せる、人が見るためのページURL
+# url: 監視に使うURL(pdf_listはページURL、json系はJSON APIのURL)
+# web_url: (json系のみ) 通知に載せる、人が見るためのページURL
 targets:
   - id: extreme_japan
     type: pdf_list
@@ -31,3 +33,9 @@ targets:
     name: 暖候期・寒候期予報(全国)
     url: https://www.jma.go.jp/bosai/season/data/P6M/010000.json
     web_url: "https://www.jma.go.jp/bosai/map.html#5/34.5/137/&elem=temperature&pattern=P6M&term=0&contents=season"
+
+  - id: early_warning
+    type: json_probability
+    name: 早期注意情報(警報級の可能性)
+    url: https://www.jma.go.jp/bosai/probability/data/probability/r8/map.json
+    web_url: "https://www.jma.go.jp/bosai/map.html#5/34.5/137/&elem=all&contents=probability"

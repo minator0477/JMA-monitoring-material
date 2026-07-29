@@ -2,8 +2,10 @@
 """気象庁の監視対象ページを巡回し、新着資料を検知する。
 
 対応する監視方式(targetの type):
-  pdf_list      … ページ内の <a href="*.pdf"> を新着PDFとして検知し、ダウンロードする
-  json_bulletin … JSON APIの reportDatetime の変化で新しい発表を検知する(ダウンロードはしない)
+  pdf_list         … ページ内の <a href="*.pdf"> を新着PDFとして検知し、ダウンロードする
+  json_bulletin     … JSON(単一オブジェクト)の reportDatetime の変化で新しい発表を検知する(季節予報など)
+  json_probability … JSON(ネストした配列)内の全 reportDatetime の最大値の変化で新しい発表を検知する(早期注意情報など)
+どちらのjson系も実ファイルのダウンロードはしない。
 
 Discordへの通知は行わない(コミット・push後にnotify.pyが行う)。
 新着があった場合は state/new_entries.json に一覧を書き出す。
@@ -136,7 +138,41 @@ def check_pdf_list(target: dict, session: requests.Session, state: dict) -> list
     return entries
 
 
-def check_json_bulletin(target: dict, session: requests.Session, bulletin_state: dict) -> list[Entry]:
+def extract_single_bulletin(data: dict) -> tuple[str | None, str]:
+    """単一オブジェクトのJSON(季節予報など)から reportDatetime とタイトルを取り出す。"""
+    report_datetime = data.get("reportDatetime")
+    title = (data.get("headlineText") or "").strip() or "新しい予報が発表されました"
+    return report_datetime, title
+
+
+def extract_max_report_datetime(data) -> tuple[str | None, str]:
+    """任意にネストしたJSON(早期注意情報など)から reportDatetime の最大値を取り出す。"""
+    found: list[str] = []
+
+    def walk(node) -> None:
+        if isinstance(node, dict):
+            value = node.get("reportDatetime")
+            if isinstance(value, str):
+                found.append(value)
+            for v in node.values():
+                walk(v)
+        elif isinstance(node, list):
+            for v in node:
+                walk(v)
+
+    walk(data)
+    if not found:
+        return None, ""
+    return max(found), "新しい情報が発表されました"
+
+
+BULLETIN_EXTRACTORS = {
+    "json_bulletin": extract_single_bulletin,
+    "json_probability": extract_max_report_datetime,
+}
+
+
+def check_bulletin(target: dict, session: requests.Session, bulletin_state: dict, extract_fn) -> list[Entry]:
     target_id = target["id"]
     target_name = target.get("name", target_id)
     url = target["url"]
@@ -150,7 +186,7 @@ def check_json_bulletin(target: dict, session: requests.Session, bulletin_state:
         print(f"[{target_id}] 取得/パースに失敗しました: {e}", file=sys.stderr)
         return []
 
-    report_datetime = data.get("reportDatetime")
+    report_datetime, title = extract_fn(data)
     if not report_datetime:
         print(f"[{target_id}] reportDatetimeが見つかりません", file=sys.stderr)
         return []
@@ -160,13 +196,12 @@ def check_json_bulletin(target: dict, session: requests.Session, bulletin_state:
         print(f"[{target_id}] 更新なし (reportDatetime={report_datetime})")
         return []
 
-    headline = (data.get("headlineText") or "").strip() or "新しい予報が発表されました"
     now = datetime.now(timezone.utc).isoformat()
 
     entry = Entry(
         target_id=target_id,
         target_name=target_name,
-        title=headline,
+        title=title,
         url=web_url,
         path=None,
         downloaded_at=now,
@@ -194,8 +229,8 @@ def main() -> int:
             entries = check_pdf_list(target, session, state)
             if entries:
                 state_changed = True
-        elif target_type == "json_bulletin":
-            entries = check_json_bulletin(target, session, bulletin_state)
+        elif target_type in BULLETIN_EXTRACTORS:
+            entries = check_bulletin(target, session, bulletin_state, BULLETIN_EXTRACTORS[target_type])
             if entries:
                 bulletin_state_changed = True
         else:
