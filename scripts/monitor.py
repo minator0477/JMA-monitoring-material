@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
-"""気象庁の監視対象ページを巡回し、新着PDFをダウンロードしてDiscordに通知する。"""
+"""気象庁の監視対象ページを巡回し、新着PDFをダウンロード・Markdown変換する。
+
+Discordへの通知は行わない(コミット・push後にnotify.pyが行う)。
+新着があった場合は state/new_entries.json に一覧を書き出す。
+"""
 
 from __future__ import annotations
 
 import json
-import os
 import sys
 from dataclasses import dataclass, asdict
 from datetime import datetime, timezone
@@ -19,6 +22,7 @@ from markitdown import MarkItDown
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "config" / "targets.yaml"
 STATE_PATH = ROOT / "state" / "downloaded.json"
+NEW_ENTRIES_PATH = ROOT / "state" / "new_entries.json"
 DOWNLOADS_DIR = ROOT / "downloads"
 
 USER_AGENT = (
@@ -26,7 +30,6 @@ USER_AGENT = (
     "+https://github.com/)"
 )
 REQUEST_TIMEOUT = 30
-DISCORD_MESSAGE_LIMIT = 1900
 
 _markitdown = MarkItDown()
 
@@ -99,34 +102,6 @@ def convert_to_markdown(pdf_path: Path, md_path: Path, title: str, source_url: s
     return True
 
 
-def notify_discord(new_entries: list[PdfEntry]) -> None:
-    webhook_url = os.environ.get("DISCORD_WEBHOOK_URL")
-    if not webhook_url:
-        print("DISCORD_WEBHOOK_URL not set; skipping notification")
-        return
-
-    header = f"気象庁の新着資料を{len(new_entries)}件検知しました\n"
-    lines = [
-        f"・[{e.target_name}] {e.title}\n  {e.url}" for e in new_entries
-    ]
-
-    chunk = header
-    chunks = []
-    for line in lines:
-        if len(chunk) + len(line) + 1 > DISCORD_MESSAGE_LIMIT:
-            chunks.append(chunk)
-            chunk = ""
-        chunk += line + "\n"
-    if chunk:
-        chunks.append(chunk)
-
-    session = requests.Session()
-    for content in chunks:
-        resp = session.post(webhook_url, json={"content": content}, timeout=REQUEST_TIMEOUT)
-        if resp.status_code >= 300:
-            print(f"Discord notification failed: {resp.status_code} {resp.text}", file=sys.stderr)
-
-
 def main() -> int:
     targets = load_targets()
     state = load_state()
@@ -183,9 +158,13 @@ def main() -> int:
 
     if new_entries:
         save_state(state)
-        notify_discord(new_entries)
+        NEW_ENTRIES_PATH.parent.mkdir(parents=True, exist_ok=True)
+        with open(NEW_ENTRIES_PATH, "w", encoding="utf-8") as f:
+            json.dump([asdict(e) for e in new_entries], f, ensure_ascii=False, indent=2)
+            f.write("\n")
     else:
         print("新着PDFはありませんでした")
+        NEW_ENTRIES_PATH.unlink(missing_ok=True)
 
     return 0
 
