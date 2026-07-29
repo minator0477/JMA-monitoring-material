@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
-"""state/new_entries.json を読み、新着PDFのGitHubリンクをDiscordに通知する。
+"""state/new_entries.json を読み、新着資料をDiscordに通知する。
 
-コミット・push後に実行すること(リンクが指す内容がリモートに存在している必要があるため)。
+PDFなど実ファイルをダウンロードしたエントリ(pathあり)はGitHub上のリンクを、
+発表検知のみのエントリ(pathなし、例: 季節予報)はurlをそのまま案内する。
+
+コミット・push後に実行すること(GitHubリンクが指す内容がリモートに存在している必要があるため)。
 """
 
 from __future__ import annotations
@@ -34,9 +37,11 @@ def github_blob_url(repo_relative_path: str) -> str | None:
 def build_message_lines(entries: list[dict]) -> list[str]:
     lines = []
     for e in entries:
-        link = github_blob_url(e["path"])
-        if link is None:
-            link = f"(リンク生成不可: {e['path']})"
+        path = e.get("path")
+        if path:
+            link = github_blob_url(path) or f"(リンク生成不可: {path})"
+        else:
+            link = e["url"]
         lines.append(f"・[{e['target_name']}] {e['title']}\n  {link}")
     return lines
 

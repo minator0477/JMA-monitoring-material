@@ -1,8 +1,33 @@
 # 監視対象の気象庁ページ一覧。
-# id: ダウンロード先フォルダ名にも使われる一意なID(英数字推奨)
+#
+# type: pdf_list (デフォルト) | json_bulletin
+#   pdf_list      … ページ内の <a href="*.pdf"> を新着PDFとして検知・ダウンロードする
+#   json_bulletin … JSON APIの reportDatetime の変化で新しい発表を検知する(ダウンロードはしない)
+#
+# id: ダウンロード先フォルダ名やstateのキーにも使われる一意なID(英数字推奨)
 # name: 通知メッセージなどで使う表示名
-# url: 監視対象ページのURL
+# url: 監視に使うURL(pdf_listはページURL、json_bulletinはJSON APIのURL)
+# web_url: (json_bulletinのみ) 通知に載せる、人が見るためのページURL
 targets:
   - id: extreme_japan
+    type: pdf_list
     name: 日本の異常気象
     url: https://www.data.jma.go.jp/cpd/longfcst/extreme_japan/index.html
+
+  - id: season_1month
+    type: json_bulletin
+    name: 1か月予報(全国)
+    url: https://www.jma.go.jp/bosai/season/data/P1M/010000.json
+    web_url: "https://www.jma.go.jp/bosai/map.html#5/34.5/137/&elem=temperature&pattern=P1M&term=0&contents=season"
+
+  - id: season_3month
+    type: json_bulletin
+    name: 3か月予報(全国)
+    url: https://www.jma.go.jp/bosai/season/data/P3M/010000.json
+    web_url: "https://www.jma.go.jp/bosai/map.html#5/34.5/137/&elem=temperature&pattern=P3M&term=0&contents=season"
+
+  - id: season_6month
+    type: json_bulletin
+    name: 暖候期・寒候期予報(全国)
+    url: https://www.jma.go.jp/bosai/season/data/P6M/010000.json
+    web_url: "https://www.jma.go.jp/bosai/map.html#5/34.5/137/&elem=temperature&pattern=P6M&term=0&contents=season"
