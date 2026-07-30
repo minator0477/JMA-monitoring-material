@@ -2,8 +2,8 @@ name: Monitor JMA PDFs
 
 on:
   schedule:
-    # 22:00 UTC = 7:00 JST(毎日)
-    - cron: "0 22 * * *"
+    # 20:00 UTC = 5:00 JST(毎日)
+    - cron: "0 20 * * *"
   workflow_dispatch: {}
 
 permissions:
