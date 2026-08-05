@@ -1,4 +1,132 @@
 {
+  "https://www.data.jma.go.jp/cpdinfo/climate_lecture/index.html#archive": {
+    "downloaded_at": "2026-08-05T12:34:00.272707+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「『日本の気候変動2025』と地域防災を考えるシンポジウム」を開催しました。地球温暖化に伴う降水の変化、各地での水防災の取組等の講演をアーカイブ配信しています。",
+    "url": "https://www.data.jma.go.jp/cpdinfo/climate_lecture/index.html#archive"
+  },
+  "https://www.data.jma.go.jp/sat_info/himawari/kondan_index2.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272425+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "静止気象衛星に関する懇談会（第11回）の議事概要を掲載しました",
+    "url": "https://www.data.jma.go.jp/sat_info/himawari/kondan_index2.html"
+  },
+  "https://www.data.jma.go.jp/typhoon/news/20251224.pdf": {
+    "downloaded_at": "2026-08-05T12:34:00.273029+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和７年台風第15号の確定値を掲載～上陸場所を愛媛県愛南町付近と解析しました～",
+    "url": "https://www.data.jma.go.jp/typhoon/news/20251224.pdf"
+  },
+  "https://www.jma.go.jp/jma/kishou/info/event/R8/kengakuday.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271847+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "７月29日（水）・30日（木）に「気象庁・みなと科学館夏休みこども見学デー」を開催します！",
+    "url": "https://www.jma.go.jp/jma/kishou/info/event/R8/kengakuday.html"
+  },
+  "https://www.jma.go.jp/jma/kishou/intro/recruit/index1.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272672+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "気象庁職員募集動画を公開しました",
+    "url": "https://www.jma.go.jp/jma/kishou/intro/recruit/index1.html"
+  },
+  "https://www.jma.go.jp/jma/kishou/know/bosai/keiho-update2026/index.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273091+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "新たな防災気象情報に関する説明資料等を掲載する特設ページを開設しました",
+    "url": "https://www.jma.go.jp/jma/kishou/know/bosai/keiho-update2026/index.html"
+  },
+  "https://www.jma.go.jp/jma/kishou/know/jishin/jishin_bosai/r7_lecture.html#archive": {
+    "downloaded_at": "2026-08-05T12:34:00.272777+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「令和７年度巨大地震対策オンライン講演会」のアーカイブ配信を開始しました",
+    "url": "https://www.jma.go.jp/jma/kishou/know/jishin/jishin_bosai/r7_lecture.html#archive"
+  },
+  "https://www.jma.go.jp/jma/kishou/know/jishin/tenken/20260803.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271512+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「令和８年熊本地震」における気象庁機動調査班（JMA-MOT）による震度観測点の現地調査結果について",
+    "url": "https://www.jma.go.jp/jma/kishou/know/jishin/tenken/20260803.html"
+  },
+  "https://www.jma.go.jp/jma/kishou/know/jma-svd-el/jishin/jishin-tsunami.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272446+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "eラーニング教材「地震・津波から命を守る」の提供を開始しました",
+    "url": "https://www.jma.go.jp/jma/kishou/know/jma-svd-el/jishin/jishin-tsunami.html"
+  },
+  "https://www.jma.go.jp/jma/kishou/know/jma-svd-el/kazan/kazan.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272439+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "eラーニング教材「火山災害から命を守る」の提供を開始しました",
+    "url": "https://www.jma.go.jp/jma/kishou/know/jma-svd-el/kazan/kazan.html"
+  },
+  "https://www.jma.go.jp/jma/kishou/shingikai/kentoukai/R7tiikibosai_kentoukai/R7tiikibosai_kentoukai.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272851+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "地域における気象防災業務に関する検討会（第５回）の議事概要を掲載しました",
+    "url": "https://www.jma.go.jp/jma/kishou/shingikai/kentoukai/R7tiikibosai_kentoukai/R7tiikibosai_kentoukai.html"
+  },
+  "https://www.jma.go.jp/jma/kishou/shingikai/kentoukai/longfcst/longfcst_kentoukai.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271813+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「１週間から数か月先の情報の高度化に関する検討会」（第２回）の議事概要を掲載しました",
+    "url": "https://www.jma.go.jp/jma/kishou/shingikai/kentoukai/longfcst/longfcst_kentoukai.html"
+  },
+  "https://www.jma.go.jp/jma/kishou/shingikai/kondankai/senjoukousuitai_WG/part11/gaiyou.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272820+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "線状降水帯予測精度向上ワーキンググループ（第11回）の議事概要を掲載しました",
+    "url": "https://www.jma.go.jp/jma/kishou/shingikai/kondankai/senjoukousuitai_WG/part11/gaiyou.html"
+  },
+  "https://www.jma.go.jp/jma/kishou/shingikai/kondankai/suuchi_model_kondankai/part10/gaiyou.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272547+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "数値予報モデル開発懇談会（第10回）の議事概要を掲載しました",
+    "url": "https://www.jma.go.jp/jma/kishou/shingikai/kondankai/suuchi_model_kondankai/part10/gaiyou.html"
+  },
+  "https://www.jma.go.jp/jma/kokusai/kokusai_wmd.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272523+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "３月２３日は世界気象デー ～今年のテーマは「今日を観測し、未来を守る」～",
+    "url": "https://www.jma.go.jp/jma/kokusai/kokusai_wmd.html"
+  },
+  "https://www.jma.go.jp/jma/menu/20260728_kumamoto_jishin.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271563+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「令和８年熊本地震」に関するポータルサイトを開設しました",
+    "url": "https://www.jma.go.jp/jma/menu/20260728_kumamoto_jishin.html"
+  },
   "https://www.jma.go.jp/jma/press/2308/28a/kentoukai20230828.pdf": {
     "downloaded_at": "2026-07-28T22:52:44.000521+00:00",
     "path": "downloads/extreme_japan/kentoukai20230828.pdf",
@@ -31,6 +159,510 @@
     "title": "令和７年夏の記録的な高温と７月の少雨の特徴およびその要因等について",
     "url": "https://www.jma.go.jp/jma/press/2509/05b/kentoukai20250905.pdf"
   },
+  "https://www.jma.go.jp/jma/press/2512/02a/20251202.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273264+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "大雪に対する国土交通省発表",
+    "url": "https://www.jma.go.jp/jma/press/2512/02a/20251202.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/05a/nt20251205.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273257+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "南海トラフ地震関連解説情報について －最近の南海トラフ周辺の地殻活動－",
+    "url": "https://www.jma.go.jp/jma/press/2512/05a/nt20251205.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/08a/2511jishin.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273250+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和７年11月の地震活動及び火山活動について",
+    "url": "https://www.jma.go.jp/jma/press/2512/08a/2511jishin.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/09a/202512090115.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273243+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和７年12月８日23時15分頃の青森県東方沖の地震について",
+    "url": "https://www.jma.go.jp/jma/press/2512/09a/202512090115.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/09b/nceq202512090200.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273236+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "北海道・三陸沖後発地震注意情報について",
+    "url": "https://www.jma.go.jp/jma/press/2512/09b/nceq202512090200.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/09c/20251209_zantei_d.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273228+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和７年12月8日23時15分頃の青森県東方沖の地震に伴う土砂災害警戒情報発表基準の暫定的な運用について",
+    "url": "https://www.jma.go.jp/jma/press/2512/09c/20251209_zantei_d.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/09d/20251209_zantei_k.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273222+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和７年12月8日23時15分頃の青森県東方沖の地震に伴う大雨警報・注意報発表基準の暫定的な運用について",
+    "url": "https://www.jma.go.jp/jma/press/2512/09d/20251209_zantei_k.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/09e/20251209_seaice.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273212+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "流氷に関する情報提供の見直しについて",
+    "url": "https://www.jma.go.jp/jma/press/2512/09e/20251209_seaice.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/09f/202512091600.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273205+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和７年12月８日23時15分頃の青森県東方沖の地震について（第２報）",
+    "url": "https://www.jma.go.jp/jma/press/2512/09f/202512091600.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/10a/202512101600.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273198+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和７年12月８日23時15分頃の青森県東方沖の地震について（第３報）",
+    "url": "https://www.jma.go.jp/jma/press/2512/10a/202512101600.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/10b/20251209jma_mot.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273191+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和７年12月８日23時15分頃の青森県東方沖の地震における気象庁機動調査班（JMA-MOT）による震度観測点の現地調査結果について（第１報）",
+    "url": "https://www.jma.go.jp/jma/press/2512/10b/20251209jma_mot.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/11a/202512111600.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273184+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和７年12月８日23時15分頃の青森県東方沖の地震について（第４報）",
+    "url": "https://www.jma.go.jp/jma/press/2512/11a/202512111600.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/11b/20251210jma_mot.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273173+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和７年12月８日23時15分頃の青森県東方沖の地震における気象庁機動調査班（JMA-MOT）による震度観測点の現地調査結果について（第２報）",
+    "url": "https://www.jma.go.jp/jma/press/2512/11b/20251210jma_mot.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/12a/202512121250.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273166+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和７年12月12日11時44分頃の青森県東方沖の地震について －令和７年12月８日23時15分頃の青森県東方沖の地震について（第５報）－",
+    "url": "https://www.jma.go.jp/jma/press/2512/12a/202512121250.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/12b/heavyrain_seasia20251212.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273158+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "2025年11月の東南アジアを中心とした地域での大雨について",
+    "url": "https://www.jma.go.jp/jma/press/2512/12b/heavyrain_seasia20251212.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/12c/press_SLMCS_WG20251212.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273151+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "線状降水帯予測精度向上ワーキンググループ（第11回会合）の開催について",
+    "url": "https://www.jma.go.jp/jma/press/2512/12c/press_SLMCS_WG20251212.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/12d/202512121400.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273141+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和７年12月12日11時44分頃の青森県東方沖の地震の震源要素更新について",
+    "url": "https://www.jma.go.jp/jma/press/2512/12d/202512121400.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/12e/202512121600.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273134+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和７年12月８日23時15分頃の青森県東方沖の地震について（第６報）",
+    "url": "https://www.jma.go.jp/jma/press/2512/12e/202512121600.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/12f/20251211jma_mot.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273127+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和７年12月８日23時15分頃の青森県東方沖の地震における気象庁機動調査班（JMA-MOT）による震度観測点の現地調査結果について（第３報）",
+    "url": "https://www.jma.go.jp/jma/press/2512/12f/20251211jma_mot.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/13a/202512131600.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273120+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和７年12月８日23時15分頃の青森県東方沖の地震について（第７報）",
+    "url": "https://www.jma.go.jp/jma/press/2512/13a/202512131600.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/14a/202512141600.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273113+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和７年12月８日23時15分頃の青森県東方沖の地震について（第８報）",
+    "url": "https://www.jma.go.jp/jma/press/2512/14a/202512141600.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/15a/202512151600.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273105+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和７年12月８日23時15分頃の青森県東方沖の地震について（第９報）",
+    "url": "https://www.jma.go.jp/jma/press/2512/15a/202512151600.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/16a/20251216_taikeiseiri.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273098+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "新たな防災気象情報の運用について ～令和８年の大雨時期から防災気象情報が生まれ変わります～",
+    "url": "https://www.jma.go.jp/jma/press/2512/16a/20251216_taikeiseiri.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/16b/202512161030.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273084+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "北海道・三陸沖後発地震注意情報に伴う特別な注意の呼び掛けの期間の終了について～令和７年12月８日23時15分頃の青森県東方沖の地震（第10報）について～",
+    "url": "https://www.jma.go.jp/jma/press/2512/16b/202512161030.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/16c/202512161100.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273077+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "津波警報等の対象地域の伝え方の改善について",
+    "url": "https://www.jma.go.jp/jma/press/2512/16c/202512161100.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/16d/20251216_tiikibousai_kentoukai.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273070+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「地域における気象防災業務に関する検討会」（第５回）の開催について",
+    "url": "https://www.jma.go.jp/jma/press/2512/16d/20251216_tiikibousai_kentoukai.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/17a/20251217_rinyakasai.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273062+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "林野火災予防のための新たな取組を開始します",
+    "url": "https://www.jma.go.jp/jma/press/2512/17a/20251217_rinyakasai.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/19a/20251219_tsunami.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273052+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "津波情報に活用する観測地点の変更について",
+    "url": "https://www.jma.go.jp/jma/press/2512/19a/20251219_tsunami.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/19b/SLMCS_20251219.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273044+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "線状降水帯予測精度向上に向けた技術開発・研究の取組について",
+    "url": "https://www.jma.go.jp/jma/press/2512/19b/SLMCS_20251219.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/23a/ipccsymposium.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273036+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "IPCCシンポジウム「直面する気候変動に対処するための様々な道筋を考える」の開催について",
+    "url": "https://www.jma.go.jp/jma/press/2512/23a/ipccsymposium.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/24a/20251224_typhoon_matome.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273008+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "2025年（令和７年）の台風のまとめ（速報）",
+    "url": "https://www.jma.go.jp/jma/press/2512/24a/20251224_typhoon_matome.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/24b/20251224_2025tenkou.html": {
+    "downloaded_at": "2026-08-05T12:34:00.273000+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "2025年（令和７年）の天候のまとめ（速報）",
+    "url": "https://www.jma.go.jp/jma/press/2512/24b/20251224_2025tenkou.html"
+  },
+  "https://www.jma.go.jp/jma/press/2512/26a/08kettei.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272993+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年度気象庁関係予算案決定概要",
+    "url": "https://www.jma.go.jp/jma/press/2512/26a/08kettei.html"
+  },
+  "https://www.jma.go.jp/jma/press/2601/06a/202601061125.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272984+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年１月６日10時18分頃の島根県東部の地震について",
+    "url": "https://www.jma.go.jp/jma/press/2601/06a/202601061125.html"
+  },
+  "https://www.jma.go.jp/jma/press/2601/06b/20260106_zantei_d.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272972+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年１月６日10時18分頃の島根県東部の地震に伴う土砂災害警戒情報発表基準の暫定的な運用について",
+    "url": "https://www.jma.go.jp/jma/press/2601/06b/20260106_zantei_d.html"
+  },
+  "https://www.jma.go.jp/jma/press/2601/06c/20260106_zantei_k.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272960+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年１月６日10時18分頃の島根県東部の地震に伴う大雨警報・注意報発表基準の暫定的な運用について",
+    "url": "https://www.jma.go.jp/jma/press/2601/06c/20260106_zantei_k.html"
+  },
+  "https://www.jma.go.jp/jma/press/2601/06d/202601061240.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272920+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年１月６日10時18分頃の島根県東部の地震の震源要素更新について",
+    "url": "https://www.jma.go.jp/jma/press/2601/06d/202601061240.html"
+  },
+  "https://www.jma.go.jp/jma/press/2601/07a/20260107jma_mot.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272913+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年１月６日10時18分の島根県東部の地震における気象庁機動調査班（JMA-MOT）による震度観測点の現地調査結果について",
+    "url": "https://www.jma.go.jp/jma/press/2601/07a/20260107jma_mot.html"
+  },
+  "https://www.jma.go.jp/jma/press/2601/09a/nt20260109.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272905+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "南海トラフ地震関連解説情報について　－最近の南海トラフ周辺の地殻活動－",
+    "url": "https://www.jma.go.jp/jma/press/2601/09a/nt20260109.html"
+  },
+  "https://www.jma.go.jp/jma/press/2601/13a/2512jishin.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272865+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和７年12月の地震活動及び火山活動について",
+    "url": "https://www.jma.go.jp/jma/press/2601/13a/2512jishin.html"
+  },
+  "https://www.jma.go.jp/jma/press/2601/19a/20260119.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272858+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "大雪に対する国土交通省緊急発表",
+    "url": "https://www.jma.go.jp/jma/press/2601/19a/20260119.html"
+  },
+  "https://www.jma.go.jp/jma/press/2601/20a/20260120_tiikibousai_houkokusyo.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272843+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「地域における気象防災業務に関する検討会」報告書について",
+    "url": "https://www.jma.go.jp/jma/press/2601/20a/20260120_tiikibousai_houkokusyo.html"
+  },
+  "https://www.jma.go.jp/jma/press/2601/21a/20260121_chijiki.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272836+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "磁気嵐が観測されています",
+    "url": "https://www.jma.go.jp/jma/press/2601/21a/20260121_chijiki.html"
+  },
+  "https://www.jma.go.jp/jma/press/2601/22a/20260122_rinyakasai.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272829+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "林野火災に注意してください！　－東日本太平洋側や西日本では、顕著な少雨となっている所があります－",
+    "url": "https://www.jma.go.jp/jma/press/2601/22a/20260122_rinyakasai.html"
+  },
+  "https://www.jma.go.jp/jma/press/2601/25a/20260125_yakedake.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272813+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "焼岳の噴火警戒レベルを２へ引上げ",
+    "url": "https://www.jma.go.jp/jma/press/2601/25a/20260125_yakedake.html"
+  },
+  "https://www.jma.go.jp/jma/press/2601/26a/kondan_20260126.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272806+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "数値予報モデル開発懇談会（第10回）の開催について",
+    "url": "https://www.jma.go.jp/jma/press/2601/26a/kondan_20260126.html"
+  },
+  "https://www.jma.go.jp/jma/press/2601/26b/CPS4_20260126.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272799+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "新しい大気海洋結合モデルの導入により季節予報の精度が向上します",
+    "url": "https://www.jma.go.jp/jma/press/2601/26b/CPS4_20260126.html"
+  },
+  "https://www.jma.go.jp/jma/press/2601/27a/kondankai9.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272792+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「気候変動に関する懇談会」（第９回）の開催について",
+    "url": "https://www.jma.go.jp/jma/press/2601/27a/kondankai9.html"
+  },
+  "https://www.jma.go.jp/jma/press/2601/27b/2026_forum.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272784+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "第10回気象ビジネスフォーラムを開催します～AIと気象ビジネスの最前線と今後の展望について議論します～",
+    "url": "https://www.jma.go.jp/jma/press/2601/27b/2026_forum.html"
+  },
+  "https://www.jma.go.jp/jma/press/2602/03a/20260203_TOUNANKAI.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272770+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "東南海ケーブル式常時海底地震観測システム陸上局給電装置等更新作業に伴う緊急地震速報等への影響について",
+    "url": "https://www.jma.go.jp/jma/press/2602/03a/20260203_TOUNANKAI.html"
+  },
+  "https://www.jma.go.jp/jma/press/2602/06a/nt20260206.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272760+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "南海トラフ地震関連解説情報について　－最近の南海トラフ周辺の地殻活動－",
+    "url": "https://www.jma.go.jp/jma/press/2602/06a/nt20260206.html"
+  },
+  "https://www.jma.go.jp/jma/press/2602/09a/2601jishin.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272753+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年１月の地震活動及び火山活動について",
+    "url": "https://www.jma.go.jp/jma/press/2602/09a/2601jishin.html"
+  },
+  "https://www.jma.go.jp/jma/press/2602/10a/20260210_longfcst_kentoukai01.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272746+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「１週間から数か月先の情報の高度化に関する検討会」（第１回）の開催について",
+    "url": "https://www.jma.go.jp/jma/press/2602/10a/20260210_longfcst_kentoukai01.html"
+  },
+  "https://www.jma.go.jp/jma/press/2602/10b/20260210_sokuhobankaisekiuryo.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272736+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "速報版解析雨量における気象レーダーの二重偏波情報の高度利用の再開について",
+    "url": "https://www.jma.go.jp/jma/press/2602/10b/20260210_sokuhobankaisekiuryo.html"
+  },
+  "https://www.jma.go.jp/jma/press/2602/10c/20260210_adviser_event.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272729+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "自治体と気象防災アドバイザーのマッチングイベントを開催します",
+    "url": "https://www.jma.go.jp/jma/press/2602/10c/20260210_adviser_event.html"
+  },
+  "https://www.jma.go.jp/jma/press/2602/13a/20260213_tiikibousai_symposium.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272722+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "シンポジウム「新たな防災気象情報を活かせる社会へ～地域防災力の向上に向けて～」を開催します",
+    "url": "https://www.jma.go.jp/jma/press/2602/13a/20260213_tiikibousai_symposium.html"
+  },
+  "https://www.jma.go.jp/jma/press/2602/17a/20260217_hyogo_k.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272715+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "一部の事業者のホームページで兵庫県の気象警報等が誤表示されています",
+    "url": "https://www.jma.go.jp/jma/press/2602/17a/20260217_hyogo_k.html"
+  },
+  "https://www.jma.go.jp/jma/press/2602/20a/satellite_kondan_20260220.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272701+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "静止気象衛星に関する懇談会（第11回）の開催について",
+    "url": "https://www.jma.go.jp/jma/press/2602/20a/satellite_kondan_20260220.html"
+  },
+  "https://www.jma.go.jp/jma/press/2602/24a/20260224_kikikuru.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272693+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "浸水キキクルと洪水キキクルを改善します～空振りの減少、洪水危険度の高まりをいち早く表現～",
+    "url": "https://www.jma.go.jp/jma/press/2602/24a/20260224_kikikuru.html"
+  },
+  "https://www.jma.go.jp/jma/press/2602/24b/kentoukai20260224.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272686+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "異常気象分析検討会の開催について",
+    "url": "https://www.jma.go.jp/jma/press/2602/24b/kentoukai20260224.html"
+  },
+  "https://www.jma.go.jp/jma/press/2602/27a/20260227_40degree.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272679+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "最高気温が40℃以上の日の名称に関するアンケートについて",
+    "url": "https://www.jma.go.jp/jma/press/2602/27a/20260227_40degree.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/03a/20260303_volcano_advisory.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272665+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "火山情報アドバイザリー会議（定例会）の開催について",
+    "url": "https://www.jma.go.jp/jma/press/2603/03a/20260303_volcano_advisory.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/03b/kentoukai20260303.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272658+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年１月下旬から２月上旬の大雪と昨夏後半以降の少雨の特徴およびその要因について ～ 異常気象分析検討会による分析結果の公表 ～",
+    "url": "https://www.jma.go.jp/jma/press/2603/03b/kentoukai20260303.html"
+  },
   "https://www.jma.go.jp/jma/press/2603/03b/kentoukai20260303.pdf": {
     "downloaded_at": "2026-07-28T22:52:34.918234+00:00",
     "path": "downloads/extreme_japan/kentoukai20260303.pdf",
@@ -38,5 +670,1077 @@
     "target_name": "日本の異常気象",
     "title": "令和８年１月下旬から２月上旬の大雪と昨夏後半以降の少雨の特徴およびその要因について",
     "url": "https://www.jma.go.jp/jma/press/2603/03b/kentoukai20260303.pdf"
+  },
+  "https://www.jma.go.jp/jma/press/2603/04a/20260304_yakedake.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272648+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "焼岳の噴火警戒レベルを１へ引下げ",
+    "url": "https://www.jma.go.jp/jma/press/2603/04a/20260304_yakedake.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/06a/20260306_TOUNANKAI.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272641+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "東南海ケーブル式常時海底地震観測システムの津波観測情報への観測データ活用再開について",
+    "url": "https://www.jma.go.jp/jma/press/2603/06a/20260306_TOUNANKAI.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/06b/20260306_N-net.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272634+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "緊急地震速報等に活用する海底地震観測点の追加について～「南海トラフ海底地震津波観測網（N-net）沿岸システム」の活用開始～",
+    "url": "https://www.jma.go.jp/jma/press/2603/06b/20260306_N-net.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/06c/20260306_tsunami.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272620+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "巨大な津波に対する観測体制を強化します",
+    "url": "https://www.jma.go.jp/jma/press/2603/06c/20260306_tsunami.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/06d/nt20260306.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272612+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "南海トラフ地震関連解説情報について－最近の南海トラフ周辺の地殻活動－",
+    "url": "https://www.jma.go.jp/jma/press/2603/06d/nt20260306.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/09a/bunkakai40.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272597+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "交通政策審議会第40回気象分科会の開催について",
+    "url": "https://www.jma.go.jp/jma/press/2603/09a/bunkakai40.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/09b/2602jishin.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272590+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年２月の地震活動及び火山活動について",
+    "url": "https://www.jma.go.jp/jma/press/2603/09b/2602jishin.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/09c/20260309_noto_shindo_seisa.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272583+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「令和６年能登半島地震」の震度１以上を観測した地震の回数の精査結果について",
+    "url": "https://www.jma.go.jp/jma/press/2603/09c/20260309_noto_shindo_seisa.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/10a/20260310_nantora_kanshi.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272576+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "南海トラフ沿いにおける地殻変動監視の強化について",
+    "url": "https://www.jma.go.jp/jma/press/2603/10a/20260310_nantora_kanshi.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/10b/20260310_SLMCS.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272569+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "線状降水帯直前予測の運用開始について",
+    "url": "https://www.jma.go.jp/jma/press/2603/10b/20260310_SLMCS.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/13a/20260313_nwp.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272562+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "線状降水帯の予測技術が進化します～1kmの高解像度モデルと新しいアンサンブル予報の運用開始～",
+    "url": "https://www.jma.go.jp/jma/press/2603/13a/20260313_nwp.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/13b/20260313_oshirase.pdf": {
+    "downloaded_at": "2026-08-05T12:34:00.272555+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "兵庫県神戸市の気象警報・注意報等の発表区域変更と変更当日の気象庁ホームページにおける表示について",
+    "url": "https://www.jma.go.jp/jma/press/2603/13b/20260313_oshirase.pdf"
+  },
+  "https://www.jma.go.jp/jma/press/2603/17a/kozuiyohokasenshitei_zenpukujigawa.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272540+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "善福寺川（東京都）の洪水予報河川指定について",
+    "url": "https://www.jma.go.jp/jma/press/2603/17a/kozuiyohokasenshitei_zenpukujigawa.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/18a/20260318_oshirase.pdf": {
+    "downloaded_at": "2026-08-05T12:34:00.272529+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "気象庁ホームページの推計気象分布の改善について～表示するエリアを自由に拡大・縮小・移動することが可能に～",
+    "url": "https://www.jma.go.jp/jma/press/2603/18a/20260318_oshirase.pdf"
+  },
+  "https://www.jma.go.jp/jma/press/2603/19a/20260319_kijun.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272516+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "雌阿寒岳、吾妻山、焼岳及び霧島山（新燃岳）の噴火警戒レベルの判定基準の改定について",
+    "url": "https://www.jma.go.jp/jma/press/2603/19a/20260319_kijun.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/19b/20260319_TOUNANKAI.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272508+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "東南海ケーブル式常時海底地震観測システムの緊急地震速報への観測データ活用再開について",
+    "url": "https://www.jma.go.jp/jma/press/2603/19b/20260319_TOUNANKAI.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/24a/20260324_tsunami.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272501+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "津波情報に活用する観測地点の変更について",
+    "url": "https://www.jma.go.jp/jma/press/2603/24a/20260324_tsunami.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/24b/2026co2.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272494+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "日本付近の二酸化炭素濃度の増加が続いています",
+    "url": "https://www.jma.go.jp/jma/press/2603/24b/2026co2.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/25a/20260325_satsuma-iojima.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272487+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "薩摩硫黄島の噴火警戒レベル及び判定基準の改定について",
+    "url": "https://www.jma.go.jp/jma/press/2603/25a/20260325_satsuma-iojima.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/25b/20260325_nakanoshima.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272479+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "常時観測火山に「中之島」を追加します",
+    "url": "https://www.jma.go.jp/jma/press/2603/25b/20260325_nakanoshima.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/25c/20260325.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272472+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "新しい沿岸波浪情報を公開します～「沿岸波浪実況・予想図」の提供開始～",
+    "url": "https://www.jma.go.jp/jma/press/2603/25c/20260325.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/25d/20260325_japan_sst_project.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272464+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "日本近海の21世紀末までの海面水温の情報を公表しました",
+    "url": "https://www.jma.go.jp/jma/press/2603/25d/20260325_japan_sst_project.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/25e/ccj2025kaisetsu.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272454+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "『日本の気候変動2025を用いた気候変動解説の手引き』を公表しました",
+    "url": "https://www.jma.go.jp/jma/press/2603/25e/ccj2025kaisetsu.html"
+  },
+  "https://www.jma.go.jp/jma/press/2603/27a/2025kakutei.pdf": {
+    "downloaded_at": "2026-08-05T12:34:00.272432+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "2025年（令和7年）の台風について（確定）",
+    "url": "https://www.jma.go.jp/jma/press/2603/27a/2025kakutei.pdf"
+  },
+  "https://www.jma.go.jp/jma/press/2604/01a/202604011115.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272419+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年４月１日10時06分頃の茨城県南部の地震について",
+    "url": "https://www.jma.go.jp/jma/press/2604/01a/202604011115.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/01b/haishinshiken_20260401.pdf": {
+    "downloaded_at": "2026-08-05T12:34:00.272412+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "新しい防災気象情報の運用に向けた配信試験を行います",
+    "url": "https://www.jma.go.jp/jma/press/2604/01b/haishinshiken_20260401.pdf"
+  },
+  "https://www.jma.go.jp/jma/press/2604/07a/nt20260407.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272405+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "南海トラフ地震関連解説情報について －最近の南海トラフ周辺の地殻活動－",
+    "url": "https://www.jma.go.jp/jma/press/2604/07a/nt20260407.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/08a/2603jishin.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272396+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年３月の地震活動及び火山活動について",
+    "url": "https://www.jma.go.jp/jma/press/2604/08a/2603jishin.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/10a/elnino202604.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272388+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "エルニーニョ現象が発生する可能性が高まっています",
+    "url": "https://www.jma.go.jp/jma/press/2604/10a/elnino202604.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/14a/20240414_seirei.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272379+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「気象業務法及び水防法の一部を改正する法律の施行期日を定める政令案」及び「気象業務法施行令の一部を改正する政令案」を閣議決定　～予報・警報を高度化・適正化します～",
+    "url": "https://www.jma.go.jp/jma/press/2604/14a/20240414_seirei.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/14b/20260414_taikeiseiri.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272372+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "５月29日（金）から、新たな防災気象情報の運用を開始します　～情報名称にレベルの数字をつけて発表します～",
+    "url": "https://www.jma.go.jp/jma/press/2604/14b/20260414_taikeiseiri.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/17a/40degree_name.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272364+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "最高気温が40℃以上の日の名称を「酷暑日」に決定",
+    "url": "https://www.jma.go.jp/jma/press/2604/17a/40degree_name.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/17b/20260417_JWA_Joint_Outreach.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272357+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "日本気象協会と連携した新たな防災気象情報の広報",
+    "url": "https://www.jma.go.jp/jma/press/2604/17b/20260417_JWA_Joint_Outreach.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/17c/20260417_adviser_katsuyaku.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272351+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "活躍します！気象防災アドバイザー～PRコンテンツの公開及び活用促進事業の成果公表～",
+    "url": "https://www.jma.go.jp/jma/press/2604/17c/20260417_adviser_katsuyaku.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/18a/202604181520.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272340+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年４月18日13時20分頃の長野県北部の地震について",
+    "url": "https://www.jma.go.jp/jma/press/2604/18a/202604181520.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/18b/20260418_zantei_d.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272332+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和8年4月18日13時20分頃の長野県北部の地震に伴う土砂災害警戒情報発表基準の暫定的な運用について",
+    "url": "https://www.jma.go.jp/jma/press/2604/18b/20260418_zantei_d.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/18c/20260418_zantei_k.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272325+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和8年4月18日13時20分頃の長野県北部の地震に伴う大雨警報・注意報発表基準の暫定的な運用について",
+    "url": "https://www.jma.go.jp/jma/press/2604/18c/20260418_zantei_k.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/19a/202604181320.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272314+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年４月18日13時20分の長野県北部の地震における気象庁機動調査班（JMA-MOT）による震度観測点の現地調査結果について",
+    "url": "https://www.jma.go.jp/jma/press/2604/19a/202604181320.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/20a/202604201800.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272306+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年４月20日16時53分頃の三陸沖の地震について",
+    "url": "https://www.jma.go.jp/jma/press/2604/20a/202604201800.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/20b/nceq202604201920.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272295+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "北海道・三陸沖後発地震注意情報について",
+    "url": "https://www.jma.go.jp/jma/press/2604/20b/nceq202604201920.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/21a/202604211600.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272288+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年４月20日16時53分頃の三陸沖の地震について（第２報）",
+    "url": "https://www.jma.go.jp/jma/press/2604/21a/202604211600.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/21b/202604201652.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272282+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年４月20日16時53分頃の三陸沖の地震における気象庁機動調査班（JMA-MOT）による震度観測点の現地調査結果について",
+    "url": "https://www.jma.go.jp/jma/press/2604/21b/202604201652.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/22a/202604221600.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272276+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年４月20日16時53分頃の三陸沖の地震について（第３報）",
+    "url": "https://www.jma.go.jp/jma/press/2604/22a/202604221600.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/23a/202604231600.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272269+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年４月20日16時53分頃の三陸沖の地震について（第４報）",
+    "url": "https://www.jma.go.jp/jma/press/2604/23a/202604231600.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/24a/202604241600.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272262+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年４月20日16時53分頃の三陸沖の地震について（第５報）",
+    "url": "https://www.jma.go.jp/jma/press/2604/24a/202604241600.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/25a/202604251600.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272254+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年４月20日16時53分頃の三陸沖の地震について（第６報）",
+    "url": "https://www.jma.go.jp/jma/press/2604/25a/202604251600.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/26a/202604261600.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272247+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年４月20日16時53分頃の三陸沖の地震について（第７報）",
+    "url": "https://www.jma.go.jp/jma/press/2604/26a/202604261600.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/27a/202604270730.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272240+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年４月27日05時24分頃の十勝地方南部の地震について",
+    "url": "https://www.jma.go.jp/jma/press/2604/27a/202604270730.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/27b/20260427_zantei_d.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272232+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和8年4月27日5時24分頃の十勝地方南部の地震に伴う土砂災害警戒情報発表基準の暫定的な運用について",
+    "url": "https://www.jma.go.jp/jma/press/2604/27b/20260427_zantei_d.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/27c/20260427_zantei_k.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272221+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和8年4月27日5時24分頃の十勝地方南部の地震に伴う大雨警報・注意報発表基準の暫定的な運用について",
+    "url": "https://www.jma.go.jp/jma/press/2604/27c/20260427_zantei_k.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/27d/202604271715.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272162+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "北海道・三陸沖後発地震注意情報に伴う特別な注意の呼び掛けの期間の終了について～令和８年４月20日16時53分頃の三陸沖の地震について（第８報）～",
+    "url": "https://www.jma.go.jp/jma/press/2604/27d/202604271715.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/27e/202604270524.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272155+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年４月27日05時24分頃の十勝地方南部の地震における気象庁機動調査班（JMA-MOT）による震度観測点の現地調査結果について",
+    "url": "https://www.jma.go.jp/jma/press/2604/27e/202604270524.html"
+  },
+  "https://www.jma.go.jp/jma/press/2604/30a/20260430_happyo_kijun.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272148+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "新たな防災気象情報の発表基準等を公表します～新情報が警戒レベルとより強く結びつくよう改善します～",
+    "url": "https://www.jma.go.jp/jma/press/2604/30a/20260430_happyo_kijun.html"
+  },
+  "https://www.jma.go.jp/jma/press/2605/08a/haishinshiken_20260508.pdf": {
+    "downloaded_at": "2026-08-05T12:34:00.272140+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "新しい防災気象情報の運用に向けた配信試験を行います（第２回）",
+    "url": "https://www.jma.go.jp/jma/press/2605/08a/haishinshiken_20260508.pdf"
+  },
+  "https://www.jma.go.jp/jma/press/2605/12a/nt20260512.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272133+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "南海トラフ地震関連解説情報について －最近の南海トラフ周辺の地殻活動－",
+    "url": "https://www.jma.go.jp/jma/press/2605/12a/nt20260512.html"
+  },
+  "https://www.jma.go.jp/jma/press/2605/13a/2604jishin.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272126+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年４月の地震活動及び火山活動について",
+    "url": "https://www.jma.go.jp/jma/press/2605/13a/2604jishin.html"
+  },
+  "https://www.jma.go.jp/jma/press/2605/15a/20260515_kusatsu-shiranesan.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272119+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "草津白根山（白根山（湯釜付近））の噴火警戒レベルを１へ引下げ",
+    "url": "https://www.jma.go.jp/jma/press/2605/15a/20260515_kusatsu-shiranesan.html"
+  },
+  "https://www.jma.go.jp/jma/press/2605/15b/20260515_longfcst_kentoukai02.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272110+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「１週間から数か月先の情報の高度化に関する検討会」（第２回）の開催について",
+    "url": "https://www.jma.go.jp/jma/press/2605/15b/20260515_longfcst_kentoukai02.html"
+  },
+  "https://www.jma.go.jp/jma/press/2605/15c/202605152220.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272100+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年５月15日20時22分頃の宮城県沖の地震について",
+    "url": "https://www.jma.go.jp/jma/press/2605/15c/202605152220.html"
+  },
+  "https://www.jma.go.jp/jma/press/2605/20a/202605201250.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272090+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年５月20日11時46分頃の沖縄本島近海の地震について",
+    "url": "https://www.jma.go.jp/jma/press/2605/20a/202605201250.html"
+  },
+  "https://www.jma.go.jp/jma/press/2605/20b/20260520_zantei_d.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272080+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和8年5月20日11時46分頃の沖縄本島近海の地震に伴う土砂災害警戒情報発表基準の暫定的な運用について",
+    "url": "https://www.jma.go.jp/jma/press/2605/20b/20260520_zantei_d.html"
+  },
+  "https://www.jma.go.jp/jma/press/2605/20c/20260520_zantei_k.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272072+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和8年5月20日11時46分頃の沖縄本島近海の地震に伴う大雨警報・注意報発表基準の暫定的な運用について",
+    "url": "https://www.jma.go.jp/jma/press/2605/20c/20260520_zantei_k.html"
+  },
+  "https://www.jma.go.jp/jma/press/2605/20d/202605201330.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272065+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年５月20日11時46分頃の沖縄本島近海の地震の震源要素更新について",
+    "url": "https://www.jma.go.jp/jma/press/2605/20d/202605201330.html"
+  },
+  "https://www.jma.go.jp/jma/press/2605/21a/schedule.pdf": {
+    "downloaded_at": "2026-08-05T12:34:00.272058+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「新たな防災気象情報」の提供開始当日のスケジュール等について",
+    "url": "https://www.jma.go.jp/jma/press/2605/21a/schedule.pdf"
+  },
+  "https://www.jma.go.jp/jma/press/2605/22a/20260522_asamayama.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272050+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "浅間山の噴火警戒レベルを１へ引下げ",
+    "url": "https://www.jma.go.jp/jma/press/2605/22a/20260522_asamayama.html"
+  },
+  "https://www.jma.go.jp/jma/press/2605/22b/JMA-TRC-symposium_20260727.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272043+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年度気象庁・横浜国立大学共催 中高生のための台風シンポジウム～台風研究の最前線と「その先」をめざすキャリアパス～を開催します",
+    "url": "https://www.jma.go.jp/jma/press/2605/22b/JMA-TRC-symposium_20260727.html"
+  },
+  "https://www.jma.go.jp/jma/press/2605/22c/151st_anniv.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272036+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "第151回気象記念日について",
+    "url": "https://www.jma.go.jp/jma/press/2605/22c/151st_anniv.html"
+  },
+  "https://www.jma.go.jp/jma/press/2605/22d/202605201146.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272029+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年５月20日11時46分の沖縄本島近海の地震における気象庁機動調査班（JMA-MOT）による震度観測点の現地調査結果について",
+    "url": "https://www.jma.go.jp/jma/press/2605/22d/202605201146.html"
+  },
+  "https://www.jma.go.jp/jma/press/2605/25a/20260525_takashiositei.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272022+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "水防法及び気象業務法の改正に伴う高潮予報海岸の指定について～全国初の高潮予報海岸として、「富山湾沿岸」（黒部市・入善町・朝日町）を指定～",
+    "url": "https://www.jma.go.jp/jma/press/2605/25a/20260525_takashiositei.html"
+  },
+  "https://www.jma.go.jp/jma/press/2605/27a/teikyoukaishi.pdf": {
+    "downloaded_at": "2026-08-05T12:34:00.272015+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「新たな防災気象情報」の提供開始について～明日28日午後から新名称による提供が開始されます～",
+    "url": "https://www.jma.go.jp/jma/press/2605/27a/teikyoukaishi.pdf"
+  },
+  "https://www.jma.go.jp/jma/press/2605/29a/r08report.html": {
+    "downloaded_at": "2026-08-05T12:34:00.272007+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「気象庁業務評価レポート（令和８年度版）」を公表します",
+    "url": "https://www.jma.go.jp/jma/press/2605/29a/r08report.html"
+  },
+  "https://www.jma.go.jp/jma/press/2605/31a/typhoon_yokoku.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271997+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "台風第６号の今後の見通しについて",
+    "url": "https://www.jma.go.jp/jma/press/2605/31a/typhoon_yokoku.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/02a/20260602_adviser_kenshu.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271981+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年度気象防災アドバイザー育成研修の受講生募集～地域防災に貢献する意欲ある気象予報士をお待ちしています～",
+    "url": "https://www.jma.go.jp/jma/press/2606/02a/20260602_adviser_kenshu.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/02b/20260602_oshirase.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271973+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "線状降水帯に関する情報の不具合について",
+    "url": "https://www.jma.go.jp/jma/press/2606/02b/20260602_oshirase.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/02c/20260602_oshirase2.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271966+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "線状降水帯に関する情報の不具合について（第２報）",
+    "url": "https://www.jma.go.jp/jma/press/2606/02c/20260602_oshirase2.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/03a/20260603_hanran_tokukei.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271959+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "古座川水系古座川（和歌山県）にレベル５氾濫特別警報発表",
+    "url": "https://www.jma.go.jp/jma/press/2606/03a/20260603_hanran_tokukei.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/03b/20260603_oshirase3.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271953+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "線状降水帯に関する情報の不具合について（第３報）",
+    "url": "https://www.jma.go.jp/jma/press/2606/03b/20260603_oshirase3.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/05a/kondan_20260605.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271945+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "数値予報モデル開発懇談会（第11回）の開催について",
+    "url": "https://www.jma.go.jp/jma/press/2606/05a/kondan_20260605.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/05b/nt20260605.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271914+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "南海トラフ地震関連解説情報について －最近の南海トラフ周辺の地殻活動－",
+    "url": "https://www.jma.go.jp/jma/press/2606/05b/nt20260605.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/08a/202606081030.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271904+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年６月８日08時38分頃のフィリピン付近の地震について",
+    "url": "https://www.jma.go.jp/jma/press/2606/08a/202606081030.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/08b/202606081330.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271897+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年６月８日08時38分頃のフィリピン付近の地震について（第２報）",
+    "url": "https://www.jma.go.jp/jma/press/2606/08b/202606081330.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/08c/2605jishin.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271890+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年５月の地震活動及び火山活動について",
+    "url": "https://www.jma.go.jp/jma/press/2606/08c/2605jishin.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/08d/202606081700.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271882+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年６月８日08時38分頃のフィリピン付近の地震について（第３報）",
+    "url": "https://www.jma.go.jp/jma/press/2606/08d/202606081700.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/10a/20260610_eewkunren.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271875+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年６月17日に緊急地震速報の訓練を実施します",
+    "url": "https://www.jma.go.jp/jma/press/2606/10a/20260610_eewkunren.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/10b/elnino202606.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271868+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "エルニーニョ現象が発生しているとみられます",
+    "url": "https://www.jma.go.jp/jma/press/2606/10b/elnino202606.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/15a/20260615_digital_amedas.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271855+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "面的な気象データの一層の利活用促進に向けて　～デジタルアメダスアプリのデータ追加と利活用ガイドの公開～",
+    "url": "https://www.jma.go.jp/jma/press/2606/15a/20260615_digital_amedas.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/16a/202606162145.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271840+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年６月16日19時46分頃の茨城県南部の地震について",
+    "url": "https://www.jma.go.jp/jma/press/2606/16a/202606162145.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/18a/20260618_tokachidake.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271829+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "十勝岳の噴火警戒レベルを２へ引上げ",
+    "url": "https://www.jma.go.jp/jma/press/2606/18a/20260618_tokachidake.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/21a/20260621_asosan.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271821+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "阿蘇山の噴火警戒レベルを２へ引上げ",
+    "url": "https://www.jma.go.jp/jma/press/2606/21a/20260621_asosan.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/23a/bunkakai41.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271805+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "交通政策審議会第41回気象分科会の開催について",
+    "url": "https://www.jma.go.jp/jma/press/2606/23a/bunkakai41.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/25a/202606250930.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271798+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年６月25日07時30分頃の岩手県沖の地震について",
+    "url": "https://www.jma.go.jp/jma/press/2606/25a/202606250930.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/25b/nceq20260625.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271790+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年６月25日07時30分頃の岩手県沖の地震に伴う北海道・三陸沖後発地震注意情報に係る調査結果について",
+    "url": "https://www.jma.go.jp/jma/press/2606/25b/nceq20260625.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/25c/20260625_zantei.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271783+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和8年6月25日7時30分頃の岩手県沖の地震に伴う土砂災害に関する警報等の暫定的な運用について",
+    "url": "https://www.jma.go.jp/jma/press/2606/25c/20260625_zantei.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/25d/20260625_typhoon_yokoku.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271775+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "台風や梅雨前線の影響について",
+    "url": "https://www.jma.go.jp/jma/press/2606/25d/20260625_typhoon_yokoku.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/25e/202606250730.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271764+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年６月25日07時30分頃の岩手県沖の地震における気象庁機動調査班（JMA-MOT）による震度観測点の現地調査結果について",
+    "url": "https://www.jma.go.jp/jma/press/2606/25e/202606250730.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/26a/nwp_strategic_plan_2030_260626.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271757+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「『2030年に向けた数値予報技術開発重点計画』の補強」の策定について",
+    "url": "https://www.jma.go.jp/jma/press/2606/26a/nwp_strategic_plan_2030_260626.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/26b/20260626.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271750+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年６月25日07時30分頃の岩手県沖の地震における気象庁機動調査班（JMA-MOT）による震度観測点の現地調査結果について（第２報）",
+    "url": "https://www.jma.go.jp/jma/press/2606/26b/20260626.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/27a/202606270040.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271741+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年６月26日22時29分頃の山梨県東部・富士五湖の地震について",
+    "url": "https://www.jma.go.jp/jma/press/2606/27a/202606270040.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/27b/20260627_zantei.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271734+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和8年6月26日22時29分頃の山梨県東部・富士五湖の地震に伴う土砂災害に関する警報等の暫定的な運用について",
+    "url": "https://www.jma.go.jp/jma/press/2606/27b/20260627_zantei.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/28a/202606280725.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271727+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年６月28日05時21分頃の岩手県沖の地震について<br>－令和８年６月25日07時30分頃の岩手県沖の地震について（第２報）－",
+    "url": "https://www.jma.go.jp/jma/press/2606/28a/202606280725.html"
+  },
+  "https://www.jma.go.jp/jma/press/2606/29a/20260629.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271720+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年６月26日22時29分頃の山梨県東部・富士五湖の地震における気象庁機動調査班（JMA-MOT）による震度観測点の現地調査結果について",
+    "url": "https://www.jma.go.jp/jma/press/2606/29a/20260629.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/01a/kouikikouhaikentou04_20260701.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271712+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「広域降灰対策に資する降灰予測情報に関する検討会」（第４回）の開催について",
+    "url": "https://www.jma.go.jp/jma/press/2607/01a/kouikikouhaikentou04_20260701.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/01b/indexKEIKENSYA2026.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271704+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "気象庁経験者採用試験(係長級(技術))の実施について ～受験資格を見直し、受験対象者を拡大します～",
+    "url": "https://www.jma.go.jp/jma/press/2607/01b/indexKEIKENSYA2026.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/02a/202607021400.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271696+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年６月25日07時30分頃の岩手県沖の地震について（第３報）",
+    "url": "https://www.jma.go.jp/jma/press/2607/02a/202607021400.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/06a/kouikikouhaikentou04_20260706.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271681+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「広域降灰対策に資する降灰予測情報に関する検討会」（第４回）の開催の延期について",
+    "url": "https://www.jma.go.jp/jma/press/2607/06a/kouikikouhaikentou04_20260706.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/07a/20260707_press_heatstrokeprevention.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271674+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "熱中症予防を万全に！",
+    "url": "https://www.jma.go.jp/jma/press/2607/07a/20260707_press_heatstrokeprevention.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/07b/nt20260707.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271664+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "南海トラフ地震関連解説情報について－最近の南海トラフ周辺の地殻活動－",
+    "url": "https://www.jma.go.jp/jma/press/2607/07b/nt20260707.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/08a/eu_heatwave20260708.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271657+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "2026年6月下旬のヨーロッパの記録的な高温とその特徴について",
+    "url": "https://www.jma.go.jp/jma/press/2607/08a/eu_heatwave20260708.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/08b/20260708_longfcst_kentoukai03.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271650+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「１週間から数か月先の情報の高度化に関する検討会」（第３回）の開催について",
+    "url": "https://www.jma.go.jp/jma/press/2607/08b/20260708_longfcst_kentoukai03.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/08c/2606jishin.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271642+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年６月の地震活動及び火山活動について",
+    "url": "https://www.jma.go.jp/jma/press/2607/08c/2606jishin.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/09a/20260709_kuchinoerabujima.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271635+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "口永良部島の噴火警戒レベルを２へ引上げ",
+    "url": "https://www.jma.go.jp/jma/press/2607/09a/20260709_kuchinoerabujima.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/17a/movie_contest.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271628+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "知ってほしい気候変動 ～気候変動に関する動画コンテストを開催します～",
+    "url": "https://www.jma.go.jp/jma/press/2607/17a/movie_contest.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/17b/20260717_kuchinoerabujima.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271621+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "口永良部島の噴火警戒レベルを１へ引下げ",
+    "url": "https://www.jma.go.jp/jma/press/2607/17b/20260717_kuchinoerabujima.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/24a/press_asas_0724.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271608+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "アジア太平洋地上天気図の改善について～船体着氷に関する警戒領域を追加します～",
+    "url": "https://www.jma.go.jp/jma/press/2607/24a/press_asas_0724.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/27a/20260727_kuchinoerabujima.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271601+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "口永良部島の噴火警戒レベルを２へ引上げ",
+    "url": "https://www.jma.go.jp/jma/press/2607/27a/20260727_kuchinoerabujima.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/28a/202607281730.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271593+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年７月28日16時27分頃の熊本県熊本地方の地震について",
+    "url": "https://www.jma.go.jp/jma/press/2607/28a/202607281730.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/28b/202607281915.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271586+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年７月28日16時27分頃の熊本県熊本地方の地震について（第２報）",
+    "url": "https://www.jma.go.jp/jma/press/2607/28b/202607281915.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/28c/20260728_zantei.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271578+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年７月28日16時27分頃の熊本県熊本地方の地震に伴う土砂災害に関する警報等の暫定的な運用について",
+    "url": "https://www.jma.go.jp/jma/press/2607/28c/20260728_zantei.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/28d/202607282030.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271570+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「令和８年熊本地震」について（第３報）",
+    "url": "https://www.jma.go.jp/jma/press/2607/28d/202607282030.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/29a/202607291500.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271556+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「令和８年熊本地震」について（第４報）",
+    "url": "https://www.jma.go.jp/jma/press/2607/29a/202607291500.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/30a/202607301600.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271549+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「令和８年熊本地震」について（第５報）",
+    "url": "https://www.jma.go.jp/jma/press/2607/30a/202607301600.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/30b/20260730_zantei.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271541+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「令和８年熊本地震」に伴う土砂災害に関する警報等の暫定的な運用について（第２報）",
+    "url": "https://www.jma.go.jp/jma/press/2607/30b/20260730_zantei.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/30c/entitunamikansoku.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271534+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "南鳥島の遠地津波観測計障害に伴う津波情報等への影響について",
+    "url": "https://www.jma.go.jp/jma/press/2607/30c/entitunamikansoku.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/30d/minamitorishima.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271523+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "南鳥島気象観測所における気象観測の休止について",
+    "url": "https://www.jma.go.jp/jma/press/2607/30d/minamitorishima.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/31a/press_kansetsu.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271504+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "初冠雪に関する情報提供の改善について",
+    "url": "https://www.jma.go.jp/jma/press/2607/31a/press_kansetsu.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/31b/202607311600.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271497+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「令和８年熊本地震」について（第６報）",
+    "url": "https://www.jma.go.jp/jma/press/2607/31b/202607311600.html"
+  },
+  "https://www.jma.go.jp/jma/press/2607/31c/20260731.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271489+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "震度観測点の地震情報への活用停止等について",
+    "url": "https://www.jma.go.jp/jma/press/2607/31c/20260731.html"
+  },
+  "https://www.jma.go.jp/jma/press/2608/03a/20260803_takashiozantei.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271481+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「令和８年熊本地震」に伴う高潮に関する警報等の暫定的な運用について",
+    "url": "https://www.jma.go.jp/jma/press/2608/03a/20260803_takashiozantei.html"
+  },
+  "https://www.jma.go.jp/jma/press/2608/03b/japan_hot20260803.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271472+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "2026年７月中旬～下旬の顕著な高温と今後の見通しについて",
+    "url": "https://www.jma.go.jp/jma/press/2608/03b/japan_hot20260803.html"
+  },
+  "https://www.jma.go.jp/jma/press/2608/04a/heavyrain_zantei_20260804.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271462+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「令和８年熊本地震」に伴う大雨に関する警報等の暫定的な運用について",
+    "url": "https://www.jma.go.jp/jma/press/2608/04a/heavyrain_zantei_20260804.html"
+  },
+  "https://www.jma.go.jp/jma/press/2608/04b/202608041600.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271444+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「令和８年熊本地震」について（第７報）",
+    "url": "https://www.jma.go.jp/jma/press/2608/04b/202608041600.html"
+  },
+  "https://www.jma.go.jp/jma/press/2608/05a/20260805.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271394+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「令和８年熊本地震」に伴う球磨川洪水予報の暫定基準の運用について",
+    "url": "https://www.jma.go.jp/jma/press/2608/05a/20260805.html"
+  },
+  "https://www.mri-jma.go.jp/Topics/R08/080605/080605_press.html": {
+    "downloaded_at": "2026-08-05T12:34:00.271922+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "線状降水帯・台風のメカニズム解明に向けた集中観測を実施します（気象研究所ホームページへのリンク）",
+    "url": "https://www.mri-jma.go.jp/Topics/R08/080605/080605_press.html"
+  },
+  "https://www.wxbc.jp/20260728seminar/": {
+    "downloaded_at": "2026-08-05T12:34:00.271689+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年度第１回「WXBC気象データのビジネス活用セミナー」を開催します",
+    "url": "https://www.wxbc.jp/20260728seminar/"
   }
 }

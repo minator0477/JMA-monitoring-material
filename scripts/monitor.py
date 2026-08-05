@@ -3,9 +3,10 @@
 
 対応する監視方式(targetの type):
   pdf_list         … ページ内の <a href="*.pdf"> を新着PDFとして検知し、ダウンロードする
+  js_array_list    … 気象庁の報道発表資料一覧が使うJS配列(press_list.js等)から新着リンクを検知する(ダウンロードはしない)
   json_bulletin     … JSON(単一オブジェクト)の reportDatetime の変化で新しい発表を検知する(季節予報など)
   json_probability … JSON(ネストした配列)内の全 reportDatetime の最大値の変化で新しい発表を検知する(早期注意情報など)
-どちらのjson系も実ファイルのダウンロードはしない。
+js_array_list・json系はいずれも実ファイルのダウンロードはしない。
 
 Discordへの通知は行わない(コミット・push後にnotify.pyが行う)。
 新着があった場合は state/new_entries.json に一覧を書き出す。
@@ -14,6 +15,7 @@ Discordへの通知は行わない(コミット・push後にnotify.pyが行う)�
 from __future__ import annotations
 
 import json
+import re
 import sys
 from dataclasses import dataclass, asdict
 from datetime import datetime, timezone
@@ -85,6 +87,31 @@ def extract_pdf_links(html: str, page_url: str) -> list[dict]:
     return links
 
 
+PRESS_ARRAY_ENTRY_RE = re.compile(
+    r"array\[num\+\+\]\s*=\s*\['[01]','([^']*)','[^']*','[^']*','[^']*','([^']*)'\]"
+)
+
+
+def extract_press_array_links(text: str, page_url: str) -> list[dict]:
+    """気象庁の報道発表資料一覧が使うJS配列(press_list.js等)からリンクを取り出す。
+
+    ページ本体(index.html?t=1&y=NN)はJSのdocument.writeで一覧を描画するため
+    静的HTMLには<a>タグが存在せず、この配列データ自体を直接取得・解析する必要がある。
+    """
+    seen_urls: set[str] = set()
+    links = []
+    for href, title in PRESS_ARRAY_ENTRY_RE.findall(text):
+        href = href.strip()
+        if not href:
+            continue
+        absolute_url = urljoin(page_url, href)
+        if absolute_url in seen_urls:
+            continue
+        seen_urls.add(absolute_url)
+        links.append({"url": absolute_url, "title": title.strip() or absolute_url})
+    return links
+
+
 def download_pdf(session: requests.Session, url: str, dest: Path) -> None:
     dest.parent.mkdir(parents=True, exist_ok=True)
     resp = session.get(url, timeout=REQUEST_TIMEOUT)
@@ -92,7 +119,13 @@ def download_pdf(session: requests.Session, url: str, dest: Path) -> None:
     dest.write_bytes(resp.content)
 
 
-def check_pdf_list(target: dict, session: requests.Session, state: dict) -> list[Entry]:
+def check_link_list(
+    target: dict,
+    session: requests.Session,
+    state: dict,
+    extract_fn,
+    download: bool,
+) -> list[Entry]:
     target_id = target["id"]
     target_name = target.get("name", target_id)
     url = target["url"]
@@ -105,35 +138,37 @@ def check_pdf_list(target: dict, session: requests.Session, state: dict) -> list
         return []
 
     resp.encoding = resp.apparent_encoding or resp.encoding
-    pdf_links = extract_pdf_links(resp.text, url)
-    print(f"[{target_id}] {len(pdf_links)}件のPDFリンクを検出")
+    links = extract_fn(resp.text, url)
+    print(f"[{target_id}] {len(links)}件のリンクを検出")
 
     entries = []
-    for link in pdf_links:
-        pdf_url = link["url"]
-        if pdf_url in state:
+    for link in links:
+        item_url = link["url"]
+        if item_url in state:
             continue
 
-        filename = Path(urlparse(pdf_url).path).name
-        dest = DOWNLOADS_DIR / target_id / filename
-
-        try:
-            download_pdf(session, pdf_url, dest)
-        except requests.RequestException as e:
-            print(f"[{target_id}] ダウンロード失敗 {pdf_url}: {e}", file=sys.stderr)
-            continue
+        path = None
+        if download:
+            filename = Path(urlparse(item_url).path).name
+            dest = DOWNLOADS_DIR / target_id / filename
+            try:
+                download_pdf(session, item_url, dest)
+            except requests.RequestException as e:
+                print(f"[{target_id}] ダウンロード失敗 {item_url}: {e}", file=sys.stderr)
+                continue
+            path = str(dest.relative_to(ROOT))
 
         entry = Entry(
             target_id=target_id,
             target_name=target_name,
             title=link["title"],
-            url=pdf_url,
-            path=str(dest.relative_to(ROOT)),
+            url=item_url,
+            path=path,
             downloaded_at=datetime.now(timezone.utc).isoformat(),
         )
-        state[pdf_url] = asdict(entry)
+        state[item_url] = asdict(entry)
         entries.append(entry)
-        print(f"[{target_id}] 新規ダウンロード: {pdf_url}")
+        print(f"[{target_id}] 新規{'ダウンロード' if download else '検知'}: {item_url}")
 
     return entries
 
@@ -226,7 +261,11 @@ def main() -> int:
         target_type = target.get("type", "pdf_list")
 
         if target_type == "pdf_list":
-            entries = check_pdf_list(target, session, state)
+            entries = check_link_list(target, session, state, extract_pdf_links, download=True)
+            if entries:
+                state_changed = True
+        elif target_type == "js_array_list":
+            entries = check_link_list(target, session, state, extract_press_array_links, download=False)
             if entries:
                 state_changed = True
         elif target_type in BULLETIN_EXTRACTORS:

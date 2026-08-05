@@ -1,10 +1,11 @@
 # 監視対象の気象庁ページ一覧。
 #
-# type: pdf_list (デフォルト) | json_bulletin | json_probability
+# type: pdf_list (デフォルト) | js_array_list | json_bulletin | json_probability
 #   pdf_list         … ページ内の <a href="*.pdf"> を新着PDFとして検知・ダウンロードする
+#   js_array_list    … 気象庁の報道発表資料一覧が使うJS配列(press_list.js等)から新着リンクを検知する
 #   json_bulletin     … JSON(単一オブジェクト)の reportDatetime の変化で新しい発表を検知する(季節予報など)
 #   json_probability … JSON(ネストした配列)内の全 reportDatetime の最大値の変化で新しい発表を検知する(早期注意情報など)
-# どちらのjson系もダウンロードはしない。
+# js_array_list・json系はいずれもダウンロードはしない。
 #
 # id: ダウンロード先フォルダ名やstateのキーにも使われる一意なID(英数字推奨)
 # name: 通知メッセージなどで使う表示名
@@ -33,6 +34,15 @@ targets:
     name: 暖候期・寒候期予報(全国)
     url: https://www.jma.go.jp/bosai/season/data/P6M/010000.json
     web_url: "https://www.jma.go.jp/bosai/map.html#5/34.5/137/&elem=temperature&pattern=P6M&term=0&contents=season"
+
+  # 報道発表資料一覧(https://www.jma.go.jp/jma/press/index.html?t=1&y=08)は年別ページで、
+  # かつ一覧はJSで動的描画されるため静的HTMLにはリンクが現れない。
+  # ページが読み込む press_list.js が実データで、年をまたいでも直近の発表が
+  # ローリングで格納されているため、年パラメータを気にせずこちらを直接監視する。
+  - id: press_release
+    type: js_array_list
+    name: 報道発表資料
+    url: https://www.jma.go.jp/jma/press_list.js
 
   - id: early_warning
     type: json_probability
