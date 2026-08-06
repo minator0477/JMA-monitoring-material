@@ -2,8 +2,9 @@ name: Monitor JMA PDFs
 
 on:
   schedule:
-    # 20:00 UTC = 5:00 JST(毎日)
-    - cron: "0 20 * * *"
+    # 20:03 UTC = 5:03 JST(毎日)。毎時00分ちょうどはGitHub Actions側の負荷が高くスケジュールイベントが
+    # ドロップされることがあるため、数分ずらして実行する。
+    - cron: "3 20 * * *"
   workflow_dispatch: {}
 
 permissions:
