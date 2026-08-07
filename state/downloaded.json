@@ -79,6 +79,14 @@
     "title": "eラーニング教材「火山災害から命を守る」の提供を開始しました",
     "url": "https://www.jma.go.jp/jma/kishou/know/jma-svd-el/kazan/kazan.html"
   },
+  "https://www.jma.go.jp/jma/kishou/know/typhoon/8-1-2.html": {
+    "downloaded_at": "2026-08-07T20:52:04.699832+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「令和８年度気象庁・横浜国立大学共催 中高生のための台風シンポジウム～台風研究の最前線と「その先」をめざすキャリアパス～」のアーカイブ配信を開始しました",
+    "url": "https://www.jma.go.jp/jma/kishou/know/typhoon/8-1-2.html"
+  },
   "https://www.jma.go.jp/jma/kishou/shingikai/kentoukai/R7tiikibosai_kentoukai/R7tiikibosai_kentoukai.html": {
     "downloaded_at": "2026-08-05T12:34:00.272851+00:00",
     "path": null,
@@ -1726,6 +1734,14 @@
     "target_name": "報道発表資料",
     "title": "「令和８年熊本地震」に伴う球磨川洪水予報の暫定基準の運用について",
     "url": "https://www.jma.go.jp/jma/press/2608/05a/20260805.html"
+  },
+  "https://www.jma.go.jp/jma/press/2608/07a/nt20260807.html": {
+    "downloaded_at": "2026-08-07T20:52:04.699789+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "南海トラフ地震関連解説情報について －最近の南海トラフ周辺の地殻活動－",
+    "url": "https://www.jma.go.jp/jma/press/2608/07a/nt20260807.html"
   },
   "https://www.mri-jma.go.jp/Topics/R08/080605/080605_press.html": {
     "downloaded_at": "2026-08-05T12:34:00.271922+00:00",
