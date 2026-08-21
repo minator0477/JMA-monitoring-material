@@ -1823,6 +1823,30 @@
     "title": "防災関係機関向けメールの誤配信について",
     "url": "https://www.jma.go.jp/jma/press/2608/20a/boteimail_20260820.html"
   },
+  "https://www.jma.go.jp/jma/press/2608/21a/heavyrain_zantei_20260821.html": {
+    "downloaded_at": "2026-08-21T20:33:43.009937+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「令和８年８月千葉豪雨」に伴う大雨に関する警報等の暫定的な運用について",
+    "url": "https://www.jma.go.jp/jma/press/2608/21a/heavyrain_zantei_20260821.html"
+  },
+  "https://www.jma.go.jp/jma/press/2608/21b/20260821_longfcst_kentoukai_report.html": {
+    "downloaded_at": "2026-08-21T20:33:43.009927+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「１週間から数か月先の情報の高度化に関する検討会」報告書について",
+    "url": "https://www.jma.go.jp/jma/press/2608/21b/20260821_longfcst_kentoukai_report.html"
+  },
+  "https://www.jma.go.jp/jma/press/2608/21c/boteimail_20260821.html": {
+    "downloaded_at": "2026-08-21T20:33:43.009891+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "防災関係機関向けメールの誤配信について（第２報）",
+    "url": "https://www.jma.go.jp/jma/press/2608/21c/boteimail_20260821.html"
+  },
   "https://www.mri-jma.go.jp/Topics/R08/080605/080605_press.html": {
     "downloaded_at": "2026-08-05T12:34:00.271922+00:00",
     "path": null,
