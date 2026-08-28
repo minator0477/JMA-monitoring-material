@@ -1903,6 +1903,38 @@
     "title": "石川県、富山県にレベル５大雨特別警報発表",
     "url": "https://www.jma.go.jp/jma/press/2608/27a/20260827_tokukei.html"
   },
+  "https://www.jma.go.jp/jma/press/2608/27b/iwatesan_20260827.html": {
+    "downloaded_at": "2026-08-28T04:20:21.091951+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "岩手山の噴火警戒レベルを１へ引下げ",
+    "url": "https://www.jma.go.jp/jma/press/2608/27b/iwatesan_20260827.html"
+  },
+  "https://www.jma.go.jp/jma/press/2608/27c/minamitorishima_saikai.html": {
+    "downloaded_at": "2026-08-28T04:20:21.091942+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "南鳥島気象観測所の気象観測の再開について",
+    "url": "https://www.jma.go.jp/jma/press/2608/27c/minamitorishima_saikai.html"
+  },
+  "https://www.jma.go.jp/jma/press/2608/27d/20260827_ooame.html": {
+    "downloaded_at": "2026-08-28T04:20:21.091930+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "石川県・富山県では引き続き土砂災害・低い土地の浸水・河川の増水や氾濫に警戒",
+    "url": "https://www.jma.go.jp/jma/press/2608/27d/20260827_ooame.html"
+  },
+  "https://www.jma.go.jp/jma/press/2608/28a/09youkyu.html": {
+    "downloaded_at": "2026-08-28T04:20:21.091893+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和９年度気象庁概算要求概要",
+    "url": "https://www.jma.go.jp/jma/press/2608/28a/09youkyu.html"
+  },
   "https://www.mri-jma.go.jp/Topics/R08/080605/080605_press.html": {
     "downloaded_at": "2026-08-05T12:34:00.271922+00:00",
     "path": null,
