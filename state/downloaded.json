@@ -1959,6 +1959,30 @@
     "title": "福井県にレベル５大雨特別警報発表",
     "url": "https://www.jma.go.jp/jma/press/2608/30a/20260830_ooame_tokukei.html"
   },
+  "https://www.jma.go.jp/jma/press/2609/01a/202609011400.html": {
+    "downloaded_at": "2026-09-01T22:32:27.963190+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「令和８年熊本地震」について（第11報）",
+    "url": "https://www.jma.go.jp/jma/press/2609/01a/202609011400.html"
+  },
+  "https://www.jma.go.jp/jma/press/2609/01b/asosan_20260901.html": {
+    "downloaded_at": "2026-09-01T22:32:27.963180+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "阿蘇山の噴火警戒レベルを２へ引下げ",
+    "url": "https://www.jma.go.jp/jma/press/2609/01b/asosan_20260901.html"
+  },
+  "https://www.jma.go.jp/jma/press/2609/01c/kentoukai20260901.html": {
+    "downloaded_at": "2026-09-01T22:32:27.963145+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年夏を対象とした異常気象分析検討会の結果について",
+    "url": "https://www.jma.go.jp/jma/press/2609/01c/kentoukai20260901.html"
+  },
   "https://www.mri-jma.go.jp/Topics/R08/080605/080605_press.html": {
     "downloaded_at": "2026-08-05T12:34:00.271922+00:00",
     "path": null,
