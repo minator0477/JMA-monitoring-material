@@ -47,6 +47,14 @@
     "title": "新たな防災気象情報に関する説明資料等を掲載する特設ページを開設しました",
     "url": "https://www.jma.go.jp/jma/kishou/know/bosai/keiho-update2026/index.html"
   },
+  "https://www.jma.go.jp/jma/kishou/know/jirei/index.html#d": {
+    "downloaded_at": "2026-09-02T22:31:55.155358+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "線状降水帯半日前予測及び線状降水帯直前予測について、令和8年のこれまでの実績をまとめた資料を掲載しました",
+    "url": "https://www.jma.go.jp/jma/kishou/know/jirei/index.html#d"
+  },
   "https://www.jma.go.jp/jma/kishou/know/jishin/jishin_bosai/r7_lecture.html#archive": {
     "downloaded_at": "2026-08-05T12:34:00.272777+00:00",
     "path": null,
@@ -1982,6 +1990,14 @@
     "target_name": "報道発表資料",
     "title": "令和８年夏を対象とした異常気象分析検討会の結果について",
     "url": "https://www.jma.go.jp/jma/press/2609/01c/kentoukai20260901.html"
+  },
+  "https://www.jma.go.jp/jma/press/2609/02a/20260902_nwp.html": {
+    "downloaded_at": "2026-09-02T22:31:55.155321+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「いぶきGW」（GOSAT-GW）搭載の最新センサAMSR3データの気象庁での利用開始",
+    "url": "https://www.jma.go.jp/jma/press/2609/02a/20260902_nwp.html"
   },
   "https://www.mri-jma.go.jp/Topics/R08/080605/080605_press.html": {
     "downloaded_at": "2026-08-05T12:34:00.271922+00:00",
