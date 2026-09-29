@@ -31,6 +31,14 @@
     "title": "令和７年台風第15号の確定値を掲載～上陸場所を愛媛県愛南町付近と解析しました～",
     "url": "https://www.data.jma.go.jp/typhoon/news/20251224.pdf"
   },
+  "https://www.data.jma.go.jp/typhoon/news/20260929.pdf": {
+    "downloaded_at": "2026-09-29T23:37:52.187280+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年台風第６号及び第８号の確定値を掲載",
+    "url": "https://www.data.jma.go.jp/typhoon/news/20260929.pdf"
+  },
   "https://www.jma.go.jp/jma/kishou/info/event/R8/kengakuday.html": {
     "downloaded_at": "2026-08-05T12:34:00.271847+00:00",
     "path": null,
@@ -1727,6 +1735,14 @@
     "title": "2026年７月中旬～下旬の顕著な高温と今後の見通しについて",
     "url": "https://www.jma.go.jp/jma/press/2608/03b/japan_hot20260803.html"
   },
+  "https://www.jma.go.jp/jma/press/2608/03b/japan_hot20260803.pdf": {
+    "downloaded_at": "2026-09-29T23:37:50.747586+00:00",
+    "path": "downloads/extreme_japan/japan_hot20260803.pdf",
+    "target_id": "extreme_japan",
+    "target_name": "日本の異常気象",
+    "title": "2026年7月中旬～下旬の顕著な高温と今後の見通しについて",
+    "url": "https://www.jma.go.jp/jma/press/2608/03b/japan_hot20260803.pdf"
+  },
   "https://www.jma.go.jp/jma/press/2608/04a/heavyrain_zantei_20260804.html": {
     "downloaded_at": "2026-08-05T12:34:00.271462+00:00",
     "path": null,
@@ -1999,6 +2015,22 @@
     "title": "令和８年夏を対象とした異常気象分析検討会の結果について",
     "url": "https://www.jma.go.jp/jma/press/2609/01c/kentoukai20260901.html"
   },
+  "https://www.jma.go.jp/jma/press/2609/01c/kentoukai20260901.pdf": {
+    "downloaded_at": "2026-09-29T23:37:48.808891+00:00",
+    "path": "downloads/extreme_japan/kentoukai20260901.pdf",
+    "target_id": "extreme_japan",
+    "target_name": "日本の異常気象",
+    "title": "令和８年夏を対象とした異常気象分析検討会の結果について",
+    "url": "https://www.jma.go.jp/jma/press/2609/01c/kentoukai20260901.pdf"
+  },
+  "https://www.jma.go.jp/jma/press/2609/01c/kentoukai20260901_betten.pdf": {
+    "downloaded_at": "2026-09-29T23:37:49.903489+00:00",
+    "path": "downloads/extreme_japan/kentoukai20260901_betten.pdf",
+    "target_id": "extreme_japan",
+    "target_name": "日本の異常気象",
+    "title": "別添",
+    "url": "https://www.jma.go.jp/jma/press/2609/01c/kentoukai20260901_betten.pdf"
+  },
   "https://www.jma.go.jp/jma/press/2609/02a/20260902_nwp.html": {
     "downloaded_at": "2026-09-02T22:31:55.155321+00:00",
     "path": null,
@@ -2126,6 +2158,22 @@
     "target_name": "報道発表資料",
     "title": "口永良部島の噴火警戒レベルを１へ引下げ",
     "url": "https://www.jma.go.jp/jma/press/2609/28a/kuchinoerabujima_20260928.html"
+  },
+  "https://www.jma.go.jp/jma/press/2609/29a/heavyrain_zantei_20260929_1.html": {
+    "downloaded_at": "2026-09-29T23:37:52.187323+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年台風第25号の影響を考慮した大雨に関する警報等の暫定的な運用について",
+    "url": "https://www.jma.go.jp/jma/press/2609/29a/heavyrain_zantei_20260929_1.html"
+  },
+  "https://www.jma.go.jp/jma/press/2609/29b/heavyrain_zantei_20260929_2.html": {
+    "downloaded_at": "2026-09-29T23:37:52.187308+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「令和８年熊本地震」に伴う大雨に関する警報等の暫定的な運用の一部見直しについて",
+    "url": "https://www.jma.go.jp/jma/press/2609/29b/heavyrain_zantei_20260929_2.html"
   },
   "https://www.mri-jma.go.jp/Topics/R08/080605/080605_press.html": {
     "downloaded_at": "2026-08-05T12:34:00.271922+00:00",
