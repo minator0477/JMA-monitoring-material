@@ -15,6 +15,14 @@
     "title": "静止気象衛星に関する懇談会（第11回）の議事概要を掲載しました",
     "url": "https://www.data.jma.go.jp/sat_info/himawari/kondan_index2.html"
   },
+  "https://www.data.jma.go.jp/stats/etrn/pdf/20260928.pdf": {
+    "downloaded_at": "2026-09-29T00:19:27.873158+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "千葉県のアメダスデータの復元について",
+    "url": "https://www.data.jma.go.jp/stats/etrn/pdf/20260928.pdf"
+  },
   "https://www.data.jma.go.jp/typhoon/news/20251224.pdf": {
     "downloaded_at": "2026-08-05T12:34:00.273029+00:00",
     "path": null,
@@ -2110,6 +2118,14 @@
     "target_name": "報道発表資料",
     "title": "「令和８年熊本地震」について（第12報）",
     "url": "https://www.jma.go.jp/jma/press/2609/24a/202609241400.html"
+  },
+  "https://www.jma.go.jp/jma/press/2609/28a/kuchinoerabujima_20260928.html": {
+    "downloaded_at": "2026-09-29T00:19:27.873201+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "口永良部島の噴火警戒レベルを１へ引下げ",
+    "url": "https://www.jma.go.jp/jma/press/2609/28a/kuchinoerabujima_20260928.html"
   },
   "https://www.mri-jma.go.jp/Topics/R08/080605/080605_press.html": {
     "downloaded_at": "2026-08-05T12:34:00.271922+00:00",
