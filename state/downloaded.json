@@ -7,6 +7,14 @@
     "title": "「『日本の気候変動2025』と地域防災を考えるシンポジウム」を開催しました。地球温暖化に伴う降水の変化、各地での水防災の取組等の講演をアーカイブ配信しています。",
     "url": "https://www.data.jma.go.jp/cpdinfo/climate_lecture/index.html#archive"
   },
+  "https://www.data.jma.go.jp/review/": {
+    "downloaded_at": "2026-10-02T23:41:58.607940+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "「過去の主な災害時の情報発表状況」のページに、令和8年8月13日～8月14日（令和8年8月千葉豪雨）の事例を掲載しました",
+    "url": "https://www.data.jma.go.jp/review/"
+  },
   "https://www.data.jma.go.jp/sat_info/himawari/kondan_index2.html": {
     "downloaded_at": "2026-08-05T12:34:00.272425+00:00",
     "path": null,
@@ -2190,6 +2198,14 @@
     "target_name": "報道発表資料",
     "title": "９月の東日本太平洋側の記録的な多雨・日照不足と今後の見通しについて",
     "url": "https://www.jma.go.jp/jma/press/2610/01a/tenko202610.html"
+  },
+  "https://www.jma.go.jp/jma/press/2610/02a/hokkaidokomagatake_20261002.html": {
+    "downloaded_at": "2026-10-02T23:41:58.607977+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "北海道駒ヶ岳の噴火警戒レベルを２へ引上げ",
+    "url": "https://www.jma.go.jp/jma/press/2610/02a/hokkaidokomagatake_20261002.html"
   },
   "https://www.mri-jma.go.jp/Topics/R08/080605/080605_press.html": {
     "downloaded_at": "2026-08-05T12:34:00.271922+00:00",
