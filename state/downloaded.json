@@ -2311,6 +2311,22 @@
     "title": "子吉川（秋田県）にレベル５氾濫特別警報発表",
     "url": "https://www.jma.go.jp/jma/press/2610/21b/20261021_hanran_tokukei.html"
   },
+  "https://www.jma.go.jp/jma/press/2610/22a/20261022_oshirase.pdf": {
+    "downloaded_at": "2026-10-22T23:12:59.434694+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "気象庁ホームページにおいて一部ページの公開を停止中",
+    "url": "https://www.jma.go.jp/jma/press/2610/22a/20261022_oshirase.pdf"
+  },
+  "https://www.jma.go.jp/jma/press/2610/22b/20261022_oshirase_2.pdf": {
+    "downloaded_at": "2026-10-22T23:12:59.434654+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "デジタルアメダスアプリにおけるデータ更新の停止について",
+    "url": "https://www.jma.go.jp/jma/press/2610/22b/20261022_oshirase_2.pdf"
+  },
   "https://www.mri-jma.go.jp/Topics/R08/080605/080605_press.html": {
     "downloaded_at": "2026-08-05T12:34:00.271922+00:00",
     "path": null,
