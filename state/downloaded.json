@@ -2406,5 +2406,13 @@
     "target_name": "報道発表資料",
     "title": "令和８年度第１回「WXBC気象データのビジネス活用セミナー」を開催します",
     "url": "https://www.wxbc.jp/20260728seminar/"
+  },
+  "https://www.wxbc.jp/20261113seminar/": {
+    "downloaded_at": "2026-11-03T02:10:51.825216+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和8年度第2回「気象データのビジネス活用セミナー」を開催します",
+    "url": "https://www.wxbc.jp/20261113seminar/"
   }
 }
