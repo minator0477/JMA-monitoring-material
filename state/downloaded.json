@@ -2439,6 +2439,14 @@
     "title": "気象庁ホームページの多言語ページに「今後の雪」を追加します",
     "url": "https://www.jma.go.jp/jma/press/2611/12a/20261112.pdf"
   },
+  "https://www.jma.go.jp/jma/press/2611/17a/202611171400.html": {
+    "downloaded_at": "2026-11-18T02:18:44.729664+00:00",
+    "path": null,
+    "target_id": "press_release",
+    "target_name": "報道発表資料",
+    "title": "令和８年10月16日12時40分に発表した緊急地震速報（警報）について（第４報）",
+    "url": "https://www.jma.go.jp/jma/press/2611/17a/202611171400.html"
+  },
   "https://www.mri-jma.go.jp/Topics/R08/080605/080605_press.html": {
     "downloaded_at": "2026-08-05T12:34:00.271922+00:00",
     "path": null,
